@@ -29,17 +29,16 @@ error-prone story lines.
 ![Map close-up, Japanese original](docs/images/map_closeup_before.jpg)
 ![Map close-up, translated](docs/images/map_closeup_after.jpg)
 
-**A Nunuhara memo (Leazas Army)** - the previous English version had wrong names ("Ria", "childy sharp"), General and
-Vice-General swapped on every card, and unreadable text; this one is retranslated from the Japanese:
+**A Nunuhara memo (Leazas Army)** - untranslated in the previous patch, like all 40 memos:
 
-![Leazas Army memo, previous English patch](docs/images/leazas_memo_before.jpg)
+![Leazas Army memo, Japanese original](docs/images/leazas_memo_before.jpg)
 ![Leazas Army memo, this patch](docs/images/leazas_memo_after.jpg)
 
 ## What it changes
 
 **Images (re-lettered from the Japanese originals)**
-- All 40 Nunuhara memos and the 12 help screens, retranslated from the Japanese (the earlier versions were OCR +
-  machine translation with many wrong names, swapped labels and unreadable text).
+- All 40 Nunuhara memos and 11 help screens, which were still in Japanese in the previous patch, translated from the
+  Japanese (with names and terms checked against the AliceSoft Wiki).
 - 69 story maps: the world map in the opening and its variants, all regional and Monster Realm maps, and the campaign
   map overlays with commander name tags.
 - About 50 more interface images: war-status maps (Monster Army), occupied-country stamps, Unit Bonus / Unit Rank,

@@ -3,7 +3,7 @@
 ## v1.0.0 - 2026-11-23
 First release. Requires Rance X 1.04 with klesun's English patch 1.04.20.
 
-- Images: 40 Nunuhara memos and 12 help screens retranslated from the Japanese; 69 story maps (world, regional,
+- Images: 40 Nunuhara memos and 11 help screens (still Japanese in the previous patch) translated; 69 story maps (world, regional,
   Monster Realm, campaign overlays); ~50 interface images (war-status maps, occupied stamps, Unit Bonus/Rank,
   Interrupt Chance, EXP labels, ending credits, Synopsis Mode and collection screens).
 - Interface/data: ~1,400 remaining Japanese strings translated; CG gallery, BGM, place names, achievements and all
