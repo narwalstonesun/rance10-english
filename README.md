@@ -21,12 +21,19 @@ error-prone story lines.
 
 **The world map from the opening** - untranslated in the previous patch:
 
-![World map: Japanese original (left) and translated (right)](docs/images/world_map.jpg)
+![World map, Japanese original](docs/images/world_map_before.jpg)
+![World map, translated](docs/images/world_map_after.jpg)
+
+**Close-up of the map: towns and landmarks** (Zeth region):
+
+![Map close-up, Japanese original](docs/images/map_closeup_before.jpg)
+![Map close-up, translated](docs/images/map_closeup_after.jpg)
 
 **A Nunuhara memo (Leazas Army)** - the previous English version had wrong names ("Ria", "childy sharp"), General and
 Vice-General swapped on every card, and unreadable text; this one is retranslated from the Japanese:
 
-![Leazas Army memo: previous English patch (left) and this patch (right)](docs/images/leazas_memo.jpg)
+![Leazas Army memo, previous English patch](docs/images/leazas_memo_before.jpg)
+![Leazas Army memo, this patch](docs/images/leazas_memo_after.jpg)
 
 ## What it changes
 
