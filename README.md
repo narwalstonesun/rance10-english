@@ -17,6 +17,17 @@ It builds on klesun's [rance-10-gpt-mtl](https://github.com/klesun/rance-10-gpt-
 extends it: translated images and maps, corrected names and terms, interface text, and a reviewed pass over the most
 error-prone story lines.
 
+## Before and after
+
+**The world map from the opening** - untranslated in the previous patch:
+
+![World map: Japanese original (left) and translated (right)](docs/images/world_map.jpg)
+
+**A Nunuhara memo (Leazas Army)** - the previous English version had wrong names ("Ria", "childy sharp"), General and
+Vice-General swapped on every card, and unreadable text; this one is retranslated from the Japanese:
+
+![Leazas Army memo: previous English patch (left) and this patch (right)](docs/images/leazas_memo.jpg)
+
 ## What it changes
 
 **Images (re-lettered from the Japanese originals)**
