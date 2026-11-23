@@ -34,22 +34,63 @@ error-prone story lines.
 
 The rest of the story text is still the original machine translation, so it can read flat in places.
 
-## Requirements
-1. Rance X updated to **version 1.04** (check `Version.txt` in the game folder; AliceSoft's update:
-   <https://www.alicesoft.com/support/rance10.html>).
-2. klesun's English patch **1.04.20** installed: replace `Rance10.ain`, `Rance10EX.ex` and `Rance10Pact.afa` in the
-   game folder with the files from <https://github.com/klesun/rance-10-gpt-mtl/releases/tag/1.04.20>.
-   (`Rance10CG2.afa` and `Rance10Flat.afa` can be either the game's originals or klesun's optional versions.)
+## Installation guide
 
-## Install
-1. Close the game.
-2. Download `Rance10-English-Revision-v1.0.0.zip` from [Releases](../../releases) and unzip it anywhere.
-3. Run `Install.bat`. It finds the game folder (or asks for it), asks Windows for administrator rights if the game
-   is in Program Files, checks every file first, backs up the originals to `_EnglishRevision_backup` in the game
-   folder, applies the patches and verifies the result. If any file is a version it doesn't know, it changes nothing
-   and tells you which one.
+You need: the Japanese PC version of Rance X installed on Windows, and about 2 GB of free disk space while
+installing. It takes about 10 minutes, most of it downloading.
 
-Existing saves keep working and show the new text. To undo, run `Restore.bat`.
+### Step 1 - Find your game folder
+The default location is `C:\Program Files (x86)\AliceSoft\ランス１０` (the last folder name is "Rance 10" in
+Japanese). It's the folder that contains `Rance10.exe`. If you installed the game elsewhere, use that folder in the
+steps below.
+
+### Step 2 - Update the game to version 1.04
+Open `Version.txt` in the game folder. If it says `1.04`, skip to Step 3. Otherwise download and run the official
+update from AliceSoft: <https://www.alicesoft.com/support/rance10.html> (Japanese page; look for the ランス１０
+update program), then check `Version.txt` again.
+
+### Step 3 - Install klesun's English patch 1.04.20 (three files)
+This patch builds on klesun's translation, so install that first.
+1. Download these three files from klesun's release page
+   (<https://github.com/klesun/rance-10-gpt-mtl/releases/tag/1.04.20>, under "Assets"):
+   [`Rance10.ain`](https://github.com/klesun/rance-10-gpt-mtl/releases/download/1.04.20/Rance10.ain),
+   [`Rance10EX.ex`](https://github.com/klesun/rance-10-gpt-mtl/releases/download/1.04.20/Rance10EX.ex),
+   [`Rance10Pact.afa`](https://github.com/klesun/rance-10-gpt-mtl/releases/download/1.04.20/Rance10Pact.afa).
+2. Copy all three into the game folder and choose **Replace the files in the destination**. If Windows asks for
+   administrator permission, click **Continue**.
+
+klesun's release page also offers optional `Rance10Flat.afa` / `Rance10CG2.afa` downloads (Google Drive). You can
+skip them: this patch already includes those images and more, and works whether you installed them or not.
+
+### Step 4 - Download this patch
+Download [`Rance10-English-Revision-v1.0.0.zip`](https://github.com/NarwalThonesun/rance10-english-revision/releases/download/v1.0.0/Rance10-English-Revision-v1.0.0.zip)
+(505 MB) from the [Releases](https://github.com/NarwalThonesun/rance10-english-revision/releases) page. Right-click
+the zip, choose **Extract All...**, and extract it anywhere (for example your Downloads folder). Don't run anything
+from inside the zip without extracting it first.
+
+### Step 5 - Run the installer
+1. Close the game if it's running.
+2. Open the extracted `Rance10-English-Revision-v1.0.0` folder and double-click **`Install.bat`**.
+3. Windows may show a security warning because the file came from the internet: click **More info → Run anyway**
+   (or **Run**). When Windows asks whether to allow changes (administrator rights to write to Program Files), click
+   **Yes**.
+4. A window shows the progress. It checks every game file first (about a minute), backs up your current files,
+   patches them and verifies the result. Wait for **"All done"**, then press Enter.
+
+That's it - start the game. Existing saves keep working and show the new text.
+
+### If something goes wrong
+- **"Nothing was changed, because: ... is a version this patch does not know"** - usually Step 3 was skipped or a
+  file is from a different klesun version. Redo Step 3 with the 1.04.20 files and run `Install.bat` again. Nothing
+  was modified, so it's safe to retry.
+- **"This patch needs game version 1.04"** - do Step 2.
+- **"Could not find Rance10.exe"** - run `Install.bat` again and pick your game folder when it asks.
+- **"Please close the game first"** - close Rance X and run it again.
+- **Running it twice is safe**: already-patched files are recognised and skipped.
+
+### Uninstall
+Run **`Restore.bat`** from the same folder. It copies back the files saved in `_EnglishRevision_backup` inside the
+game folder (your klesun-patched files from before). You can delete that backup folder once you're happy.
 
 ## Credits
 - **klesun** and the contributors to [rance-10-gpt-mtl](https://github.com/klesun/rance-10-gpt-mtl) - the English
