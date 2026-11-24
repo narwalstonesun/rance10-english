@@ -35,7 +35,8 @@ Say "Game folder: $GameDir"
 
 $ver = (Get-Content (Join-Path $GameDir 'Version.txt') -ErrorAction SilentlyContinue | Select-Object -First 1)
 if ($ver -and $ver.Trim() -ne '1.04') { Say "This patch needs game version 1.04 (Version.txt says '$ver'). Update the game first." 'Red'; Done 1 }
-if (Get-Process -Name 'Rance10' -ErrorAction SilentlyContinue) { Say 'Please close the game first, then run this again.' 'Red'; Done 1 }
+$running = Get-Process -Name 'Rance10' -ErrorAction SilentlyContinue | Where-Object { -not $_.Path -or ([IO.Path]::GetDirectoryName($_.Path)).TrimEnd([char]92) -ieq $GameDir.TrimEnd([char]92) }
+if ($running) { Say 'Please close the game first, then run this again.' 'Red'; Done 1 }
 
 # write access (Program Files needs administrator rights)
 $probe = Join-Path $GameDir '_write_test.tmp'

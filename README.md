@@ -57,7 +57,12 @@ error-prone story lines.
 - Character names and terms made consistent with the [AliceSoft Wiki](https://alicesoft.miraheze.org), and a bug in
   the old patch that turned "Sushinu" into "Sushinu the Gandhinu" (and similar) fixed.
 
-The rest of the story text is still the original machine translation, so it can read flat in places.
+- **Story revision (v1.1.0, in progress):** about 112,000 of the ~250,000 story lines retranslated from the Japanese
+  (the Prologue, the opening turns of Part 1, the Nunuhara memo text and about half of Part 1's main story), with
+  character voices modelled on the official English releases of earlier Rance games.
+
+The rest of the story text (the second half of Part 1, Part 2, After mode, Synopsis Mode) is still the original
+machine translation, so it can read flat in places.
 
 ## Installation guide
 
@@ -88,14 +93,14 @@ klesun's release page also offers optional `Rance10Flat.afa` / `Rance10CG2.afa` 
 skip them: this patch already includes those images and more, and works whether you installed them or not.
 
 ### Step 4 - Download this patch
-Download [`Rance10-English-Revision-v1.0.0.zip`](https://github.com/NarwalThonesun/rance10-english-revision/releases/download/v1.0.0/Rance10-English-Revision-v1.0.0.zip)
-(505 MB) from the [Releases](https://github.com/NarwalThonesun/rance10-english-revision/releases) page. Right-click
+Download [`Rance10-English-Revision-v1.1.0.zip`](https://github.com/NarwalThonesun/rance10-english-revision/releases/download/v1.1.0/Rance10-English-Revision-v1.1.0.zip)
+(about 645 MB) from the [Releases](https://github.com/NarwalThonesun/rance10-english-revision/releases) page. Right-click
 the zip, choose **Extract All...**, and extract it anywhere (for example your Downloads folder). Don't run anything
 from inside the zip without extracting it first.
 
 ### Step 5 - Run the installer
 1. Close the game if it's running.
-2. Open the extracted `Rance10-English-Revision-v1.0.0` folder and double-click **`Install.bat`**.
+2. Open the extracted `Rance10-English-Revision-v1.1.0` folder and double-click **`Install.bat`**.
 3. Windows may show a security warning because the file came from the internet: click **More info → Run anyway**
    (or **Run**). When Windows asks whether to allow changes (administrator rights to write to Program Files), click
    **Yes**.
@@ -103,6 +108,11 @@ from inside the zip without extracting it first.
    patches them and verifies the result. Wait for **"All done"**, then press Enter.
 
 That's it - start the game. Existing saves keep working and show the new text.
+
+### Updating from v1.0.0
+Download the new zip and run its `Install.bat` the same way; it recognises v1.0.0 files and only updates what changed.
+Your `_EnglishRevision_backup` folder from the first install is kept, so `Restore.bat` still goes back to your
+original files.
 
 ### If something goes wrong
 - **"Nothing was changed, because: ... is a version this patch does not know"** - usually Step 3 was skipped or a
@@ -125,7 +135,8 @@ game folder (your klesun-patched files from before). You can delete that backup 
 - [xdelta3](https://github.com/jmacd/xdelta-gpl) (Joshua MacDonald, GPL-2.0) - bundled in the release to apply the patches.
 - **AliceSoft** - Rance X. This is an unofficial fan project, not affiliated with or endorsed by AliceSoft.
 
-This revision was made with AI assistance (Anthropic's Claude): changes were checked against the Japanese text, but
+This revision was made with AI assistance (Anthropic's Claude; some scenes were translated with another model through
+Venice AI): changes were checked against the Japanese text, but
 mistakes are possible. Reports are welcome in [Issues](../../issues) (no spoilers in titles, please).
 
 ## License
