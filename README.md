@@ -36,6 +36,20 @@ error-prone story lines.
 ![Leazas Army memo, Japanese original](docs/images/leazas_memo_before.jpg)
 ![Leazas Army memo, this patch](docs/images/leazas_memo_after.jpg)
 
+**Story text: the opening scene** (the first dialogue of the Prologue, all four versions side by side). The game
+uses the Claude column; Venice is the model used for the scenes Claude does not translate.
+
+| Speaker | Japanese | Original English (klesun MTL) | Claude (this patch) | Venice |
+|---|---|---|---|---|
+| Rance | 「おいシィル、何を書いてる」 | "Hey Sill, what are you writing?" | "Hey, Sill. What're you writing?" | "Hey Sill, what are you writing?" |
+| Sill | 「きゃっ！　ランス様！？」 | "Eek! Lord Rance!?" | "Eek! Master Rance?!" | "Eek! Master Rance?!" |
+| Rance | 「あ〜？　なになに？ | "Huh? What is it? | "Hmmm? What've we got here? | "Huh? What, what? |
+| Rance | 私達が巨大戦艦の中に入って……」 | We entered the giant battleship..." | 'Since we went inside the giant battleship...'" | We went inside the giant battleship and..." |
+| Sill | 「きゃー！　ランス様、やめ、やめて下さい〜！」 | "Kyaa! Lord Rance, stop, please stop!" | "Eeeek! Master Rance, st-stop, please stoooop!" | "Eee! Master Rance, stop, please stop!" |
+| Rance | 「ふん、日記か。 | "Hmph, a diary, huh. | "Hmph, a diary, huh? | "Hmph, a diary. |
+| Rance | お前もマメだな」 | You're quite diligent, aren't you?" | You sure are diligent." | You're a diligent one." |
+| Rance | 「休憩は終わりだ、行くぞ」 | "Break's over, let's go." | "Break's over. Let's go." | "Break's over. Let's go." |
+
 ## What it changes
 
 **Images (re-lettered from the Japanese originals)**
