@@ -37,8 +37,8 @@ the speaker's voice entry, terminology, punctuation. A second model (Claude) rev
 the Japanese (the first batch of each part, every fifth batch, and any batch with doubts), and all accepted batches are
 re-checked against the current rules before each build.
 
-About 33,500 lines (adult scenes that Claude doesn't translate) were translated with DeepSeek V4.1 Flash through
-Venice AI, given the same house style, voice entries, names and terms, then checked for structure (every line present
+About 33,500 lines (adult scenes that Claude doesn't translate) were translated with the uncensored/abliterated version of DeepSeek V4.1 Flash
+through Venice AI, given the same house style, voice entries, names and terms, then checked for structure (every line present
 and in its place, no Japanese left) and run through the same house-style fixes.
 
 ## Images

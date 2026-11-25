@@ -5,7 +5,7 @@ Complete translation. **No longer needs klesun's patch**: the installer works on
 also upgrades klesun 1.04.20 or v1.0.0 / v1.1.0 of this patch in place.
 - Story: the rest of the game retranslated from the Japanese (second half of Part 1, Part 2, Part 2 friendship
   events, After mode, Synopsis Mode), so the whole story (~270,000 lines) is now this translation. The adult scenes
-  Claude doesn't translate (~33,500 lines) were translated with DeepSeek V4.1 Flash through Venice AI, with the same
+  Claude doesn't translate (~33,500 lines) were translated with the uncensored/abliterated version of DeepSeek V4.1 Flash through Venice AI, with the same
   names, terms and character notes.
 - Punctuation cleanup across the story: no invented dashes, colons or semicolons the Japanese doesn't have.
 - Game-system terms unified across story, interface, cards, tutorials and images (EXP, Meal Ticket, Unit Bonus,

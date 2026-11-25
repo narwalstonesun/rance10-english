@@ -91,7 +91,7 @@ appropriately.
 
 | Part | What this patch does |
 |---|---|
-| Story | All ~270,000 story lines translated from the Japanese: Prologue, Part 1, Part 2, After mode, character events, the Nunuhara memo text and Synopsis Mode. About 236,000 lines by Claude; about 33,500 lines (adult scenes Claude doesn't translate) by DeepSeek V4.1 Flash through Venice AI, with the same names, terms and character notes. |
+| Story | All ~270,000 story lines translated from the Japanese: Prologue, Part 1, Part 2, After mode, character events, the Nunuhara memo text and Synopsis Mode. About 236,000 lines by Claude; about 33,500 lines (adult scenes Claude doesn't translate) by the uncensored/abliterated version of DeepSeek V4.1 Flash through Venice AI, with the same names, terms and character notes. |
 | Names and terms | Character names and terms follow the [AliceSoft Wiki](https://alicesoft.miraheze.org) and the official English releases ("Master Rance", "Monster Army", "Fiend"); game-system terms (EXP, Meal Ticket, Unit Bonus, Buff/Debuff, statuses) are the same in the story, the interface and the images. |
 | Images | Title logo and title-screen map; 69 story maps (world, regional, Monster Realm, campaign maps with name tags); 40 Nunuhara memos and their list thumbnails; 11 help screens; about 50 interface images (war-status maps, stamps, Unit Bonus / Unit Rank, EXP labels, collection tabs, ending credits); animated captions ("Meanwhile", war results, "Get!", phase titles). |
 | Interface | About 1,400 interface and script strings (speaker names, choices, battle logs, dialogs, enemy hints), English number formatting (35,000 instead of 3万5千), status names, card names on item cards, a message font size that fits English. |
@@ -189,8 +189,8 @@ the game it happens is enough. **No spoilers in issue titles, please**: put stor
 - [xdelta3](https://github.com/jmacd/xdelta-gpl) (Joshua MacDonald, GPL-2.0): bundled in the release to apply the patches.
 - **AliceSoft**: Rance X. This is an unofficial fan project, not affiliated with or endorsed by AliceSoft.
 
-Translation: Anthropic's Claude (Sonnet for the story text, Opus for character notes, images and tooling); DeepSeek
-V4.1 Flash through Venice AI for the scenes Claude doesn't translate.
+Translation: Anthropic's Claude (Sonnet for the story text, Opus for character notes, images and tooling); the uncensored/abliterated
+DeepSeek V4.1 Flash through Venice AI for the scenes Claude doesn't translate.
 
 ## License
 
