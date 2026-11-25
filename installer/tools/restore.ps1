@@ -1,4 +1,4 @@
-# Rance X English Revision - restore the files saved by the installer
+# Rance X English Translation - restore the files saved by the installer
 param([string]$GameDir = '', [switch]$Elevated)
 $ErrorActionPreference = 'Stop'
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -14,7 +14,7 @@ function Find-Game {
     if (Test-Path (Join-Path $root 'Rance10.exe')) { return $root }
     return ''
 }
-Say '=== Rance X English Revision - restore ===' 'Cyan'
+Say '=== Rance X English Translation - restore ===' 'Cyan'
 if (-not $GameDir) { $GameDir = Find-Game }
 if (-not $GameDir) {
     Add-Type -AssemblyName System.Windows.Forms

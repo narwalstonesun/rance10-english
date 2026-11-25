@@ -1,7 +1,6 @@
-# Rance X -Showdown- English Revision
+# Rance X -Showdown- English Translation
 
-[![Latest release](https://img.shields.io/github/v/release/NarwalThonesun/rance10-english-revision?label=download)](https://github.com/NarwalThonesun/rance10-english-revision/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/NarwalThonesun/rance10-english-revision/total)](https://github.com/NarwalThonesun/rance10-english-revision/releases)
+[![Latest release](https://img.shields.io/github/v/release/NarwalThonesun/rance10-english?label=download)](https://github.com/NarwalThonesun/rance10-english/releases/latest)
 
 An unofficial, complete English translation patch for **Rance X -Showdown-** (ランス１０ -決戦-, AliceSoft), the
 Japanese PC version 1.04.
@@ -18,7 +17,7 @@ Japanese PC version 1.04.
 > Rance X is an adult (18+) game. This is a fan project, not affiliated with AliceSoft or MangaGamer. It contains no
 > game files: you need your own copy of the Japanese game. Please support the official release.
 
-**[Download v2.0.0](https://github.com/NarwalThonesun/rance10-english-revision/releases/download/v2.0.0/Rance10-English-Revision-v2.0.0.zip)**
+**[Download v2.0.0](https://github.com/NarwalThonesun/rance10-english/releases/download/v2.0.0/Rance10-English-Revision-v2.0.0.zip)**
 · [Installation guide](#installation-guide) · [Dialogue comparisons](docs/COMPARISONS.md) ·
 [Image comparisons](docs/IMAGES.md) · [How it was made](docs/METHOD.md) · [Changelog](CHANGELOG.md) ·
 [Report a problem](../../issues/new/choose)
@@ -112,8 +111,8 @@ update from AliceSoft: <https://www.alicesoft.com/support/rance10.html> (Japanes
 update program), then check `Version.txt` again.
 
 ### Step 3 - Download the patch
-Download [`Rance10-English-Revision-v2.0.0.zip`](https://github.com/NarwalThonesun/rance10-english-revision/releases/download/v2.0.0/Rance10-English-Revision-v2.0.0.zip)
-(about 400 MB) from the [Releases](https://github.com/NarwalThonesun/rance10-english-revision/releases) page. Right-click the zip,
+Download [`Rance10-English-Revision-v2.0.0.zip`](https://github.com/NarwalThonesun/rance10-english/releases/download/v2.0.0/Rance10-English-Revision-v2.0.0.zip)
+(about 400 MB) from the [Releases](https://github.com/NarwalThonesun/rance10-english/releases) page. Right-click the zip,
 choose **Extract All...**, and extract it anywhere (for example your Downloads folder). Don't run anything from
 inside the zip without extracting it first.
 

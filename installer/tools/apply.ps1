@@ -1,4 +1,4 @@
-# Rance X English Revision - patch installer
+# Rance X English Translation - patch installer
 # Patches the game files of the Japanese Rance X 1.04 with xdelta, after checking that every file is a version the
 # patch knows. Accepted starting points per file:
 #   - the original Japanese 1.04 file (the normal case; no other patch is needed)
@@ -27,7 +27,7 @@ function Find-Game {
     return ''
 }
 
-Say '=== Rance X English Revision - installer ===' 'Cyan'
+Say '=== Rance X English Translation - installer ===' 'Cyan'
 if (-not $GameDir) { $GameDir = Find-Game }
 if (-not $GameDir) {
     Add-Type -AssemblyName System.Windows.Forms
@@ -86,7 +86,7 @@ foreach ($f in $files) {
     if ($prev) {
         # written by an earlier release: start again from the file saved before that install
         $b = Join-Path $bak $f
-        if (-not (Test-Path $b)) { $problems += "$f is from English Revision $($prev.version), but its backup in _EnglishRevision_backup is missing"; continue }
+        if (-not (Test-Path $b)) { $problems += "$f is from $($prev.version) of this patch, but its backup in _EnglishRevision_backup is missing"; continue }
         $src = $b; $md5 = Md5 $b; $how = "update from $($prev.version), using the backup"
     }
     $steps = Chain $f $md5
@@ -100,7 +100,7 @@ if ($problems.Count) {
     Say 'Nothing was changed, because:' 'Red'
     $problems | ForEach-Object { Say "  - $_" 'Red' }
     Say 'This patch works on the Japanese Rance X 1.04 files (untouched, or with klesun''s English patch 1.04.20,' 'Yellow'
-    Say 'or with an earlier English Revision). If a file was changed by something else, put the original back' 'Yellow'
+    Say 'or with an earlier version of this patch). If a file was changed by something else, put the original back' 'Yellow'
     Say '(for example by reinstalling the game) and run Install.bat again. See the README for details.' 'Yellow'
     Done 1
 }
