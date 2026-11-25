@@ -53,7 +53,7 @@ More examples (shifted lines, Rance's voice, dialects, honorifics, names), all f
 
 ## From the author
 
-*This section is the author's own words. Everything else in this README was written by Claude.*
+*This section is my own words. Everything else in this README was written by Claude.*
 
 Yo, I got tired of waiting for the Rance X translation. Its been at 85% editing for like half a year now, and now they
 even got rid of the status on the MangaGamer page. I recently got into Claude and had it do some translations for a
@@ -78,14 +78,21 @@ model, makes worse translations.
 
 The other big part of the work is that Claude was able to do a ton of OCR, so the game map and other image based text
 is translated too. Some of the image text (like the in-game calendar) is also used by the game as data, which is why
-the earlier translations didn't touch it; here the game keeps the Japanese internally and shows the English on screen.
+the earlier translations didn't touch it, I got Claude to have a go at making sure this problem doesn't happen, it 
+says how it did it in the Method document. I am still testing though so problems or bugs may exist.
 
 My hope is that anyone who wants to continue the work starts here and can save some tokens or usage. I haven't ever
 interacted with the fan translation community as a whole so I don't really know what to expect after posting this.
 
 If someone actually uses this, and finds a problem please create a github issue. I'll try get around to it. If you
 have any issues that aren't related to bugs or game problems, also feel free to open an issue anyways, just label it
-appropriately.
+appropriately. These issues can be "vibes" based as well, like "This character feels like it was translated poorly",
+or "this scene feels too AI". Just make sure you give me some information to go off of and keep the issues themselves
+spoiler free if possible (idk how possible this request is :D ).
+
+
+Also, I haven't actually played or finished the game yet so please no spoilers :D. Playing through it now and fixing
+stuff I stumble across along the way.
 
 ## What's translated
 
