@@ -11,7 +11,7 @@ Japanese PC version 1.04.
   11 help screens and about 50 interface images, plus the animated captions.
 - **Opening movie in English**: the Part 1 opening's typed narration and its name cards.
 - **Interface and data**: menus, battle logs, cards, character profiles, CG and music titles, achievements.
-- **One installer** for the plain Japanese game. No other patch needed; it also installs over klesun's machine
+- **One installer** for the plain Japanese game. No other patch needed, it also installs over klesun's machine
   translation or an older version of this patch.
 
 > [!NOTE]
