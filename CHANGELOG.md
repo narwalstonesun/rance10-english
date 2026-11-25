@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.0.3 - 2026-11-26
+- Installer works on a clean Japanese 1.04 game (GitHub #31). Since v2.0.0 the patches had been made from five game
+  files that came from an older English patch instead of AliceSoft's own 1.04 files, so a clean game was refused
+  ("is a version this patch does not know" for Rance10.ain, Rance10EX.ex, Rance10Pact.afa, Rance10CG2.afa and
+  Rance10Flat.afa). Patches are now made from the official files; games with the older files, klesun's patch or an
+  earlier version of this patch still install and update.
+- No translation changes since v2.0.2.
+
 ## v2.0.2 - 2026-11-25
 - Prologue briefing: "a great army of the Monster Army" now reads "a huge Monster Army force" (GitHub #29). A
   story-wide check found no other place where a fixed term repeats its own word like this.

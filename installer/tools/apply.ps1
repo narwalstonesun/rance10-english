@@ -91,7 +91,11 @@ foreach ($f in $files) {
     }
     $steps = Chain $f $md5
     if ($null -eq $steps) { $problems += "$f is a version this patch does not know"; continue }
-    if (-not $how) { $how = if ($steps.Count -gt 1) { 'klesun 1.04.20 file' } else { 'original 1.04 file' } }
+    if (-not $how) {
+        $p0 = $steps[0].patch
+        $how = if ($p0 -like '*.klesun-to-original.xdelta') { 'klesun 1.04.20 file' }
+               elseif ($p0 -like '*.legacy.xdelta') { 'older English patch file' } else { 'original 1.04 file' }
+    }
     Say "  $f - ok ($how)"
     $plan += [pscustomobject]@{ file = $f; src = $src; steps = $steps }
 }

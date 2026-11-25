@@ -18,7 +18,7 @@ Japanese PC version 1.04.
 > Rance X is an adult (18+) game. This is a fan project, not affiliated with AliceSoft or MangaGamer. It contains no
 > game files: you need your own copy of the Japanese game. Please support the official release.
 
-**[Download v2.0.2](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.2/Rance10-English-Revision-v2.0.2.zip)**
+**[Download v2.0.3](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.3/Rance10-English-Revision-v2.0.3.zip)**
 · [Installation guide](#installation-guide) · [Dialogue comparisons](docs/COMPARISONS.md) ·
 [Image comparisons](docs/IMAGES.md) · [How it was made](docs/METHOD.md) · [Changelog](CHANGELOG.md) ·
 [Report a problem](../../issues/new/choose)
@@ -108,7 +108,7 @@ releases; comments inside saves made before installing; the ending movie (staff 
 
 ## Installation guide
 
-You need the Japanese PC version of Rance X on Windows and about 2 GB of free disk space while installing. It takes
+You need the Japanese PC version of Rance X on Windows and about 6 GB of free disk space while installing (the zip, its extracted files and the backup). It takes
 about 10 minutes, most of it downloading.
 
 ### Step 1 - Find your game folder
@@ -121,14 +121,14 @@ update from AliceSoft: <https://www.alicesoft.com/support/rance10.html> (Japanes
 update program), then check `Version.txt` again.
 
 ### Step 3 - Download the patch
-Download [`Rance10-English-Revision-v2.0.2.zip`](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.2/Rance10-English-Revision-v2.0.2.zip)
-(about 400 MB) from the [Releases](https://github.com/narwalstonesun/rance10-english/releases) page. Right-click the zip,
+Download [`Rance10-English-Revision-v2.0.3.zip`](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.3/Rance10-English-Revision-v2.0.3.zip)
+(about 1.6 GB) from the [Releases](https://github.com/narwalstonesun/rance10-english/releases) page. Right-click the zip,
 choose **Extract All...**, and extract it anywhere (for example your Downloads folder). Don't run anything from
 inside the zip without extracting it first.
 
 ### Step 4 - Run the installer
 1. Close the game if it's running.
-2. Open the extracted `Rance10-English-Revision-v2.0.2` folder and double-click **`Install.bat`**.
+2. Open the extracted `Rance10-English-Revision-v2.0.3` folder and double-click **`Install.bat`**.
 3. Windows may show a security warning because the file came from the internet: click **More info → Run anyway**
    (or **Run**). When Windows asks whether to allow changes (administrator rights to write to Program Files), click
    **Yes**.
