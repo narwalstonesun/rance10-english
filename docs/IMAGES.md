@@ -18,14 +18,6 @@ The Japanese original is always shown first. Click any image for full size. Ever
 
 Screenshots taken in the game with this patch installed (1920x1080, scaled down).
 
-A battle:
-
-![Battle screen](images/battle_screen.jpg)
-
-Battle preparation:
-
-![Battle preparation screen](images/battle_prep_screen.jpg)
-
 Loading a save:
 
 ![Load screen](images/load_screen.jpg)
