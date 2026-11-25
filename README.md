@@ -90,7 +90,7 @@ spoiler free if possible (idk how possible this request is).
 
 I haven't actually played or finished the game yet so please no spoilers :D. Playing through it now and fixing
 stuff I stumble across along the way. I haven't ever interacted with the fan translation community as a whole so I 
-don't really know what to expect after posting this.
+don't really know what to expect after posting this. Also, I don't know Japanese at all.
 
 ## What's translated
 
