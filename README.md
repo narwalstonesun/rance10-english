@@ -62,7 +62,7 @@ translators, at least in quality and writing style. So I wondered if it could do
 attempt at it.
 
 This started off from the translation already done by klesun (https://github.com/klesun/rance-10-gpt-mtl), but the
-whole story has now been retranslated from the Japanese, and you don't need klesun's patch to install this one. I
+whole story has now been retranslated from the Japanese, and you don't need klesun's patch to install this. I
 used Claude to translate anything it can, and for stuff it can't translate I used an uncensored/abliterated DeepSeek
 V4.1 Flash model hosted by Venice. Its the best I know of currently. Generally text translated by Claude is done
 using Sonnet, but most other work is done using Opus.
