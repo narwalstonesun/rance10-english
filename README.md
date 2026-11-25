@@ -58,9 +58,8 @@ More examples (shifted lines, Rance's voice, dialects, honorifics, names), all f
 
 Yo, I got tired of waiting for the Rance X translation. Its been at 85% editing for like half a year now, and now they
 even got rid of the status on the MangaGamer page. I recently got into Claude and had it do some translations for a
-few Korean webnovels and I was quite happy with the translations it made, better than the ones I found by official
-translators, at least in quality and writing style. So I wondered if it could do Rance X well enough, this is my
-attempt at it.
+few Korean webnovels and I was quite happy with the translations it made. So I wondered if it could do Rance X well enough, 
+this is my attempt at it.
 
 This started off from the translation already done by klesun (https://github.com/klesun/rance-10-gpt-mtl), but the
 whole story has now been retranslated from the Japanese, and you don't need klesun's patch to install this. I
@@ -82,9 +81,6 @@ is translated too. Some of the image text (like the in-game calendar) is also us
 the earlier translations didn't touch it, I got Claude to have a go at making sure this problem doesn't happen, it 
 says how it did it in the Method document. I am still testing though so problems or bugs may exist.
 
-My hope is that anyone who wants to continue the work starts here and can save some tokens or usage. I haven't ever
-interacted with the fan translation community as a whole so I don't really know what to expect after posting this.
-
 If someone actually uses this, and finds a problem please create a github issue. I'll try get around to it. If you
 have any issues that aren't related to bugs or game problems, also feel free to open an issue anyways, just label it
 appropriately. These issues can be "vibes" based as well, like "This character feels like it was translated poorly",
@@ -92,7 +88,8 @@ or "this scene feels too AI". Just make sure you give me some information to go 
 spoiler free if possible (idk how possible this request is).
 
 I haven't actually played or finished the game yet so please no spoilers :D. Playing through it now and fixing
-stuff I stumble across along the way.
+stuff I stumble across along the way. I haven't ever interacted with the fan translation community as a whole so I 
+don't really know what to expect after posting this.
 
 ## What's translated
 
