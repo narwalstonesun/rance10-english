@@ -26,7 +26,13 @@ Japanese PC version 1.04.
 
 **Title screen**
 
-![Title screen: Japanese original and this patch](docs/images/title_screen.jpg)
+Japanese original:
+
+![Title screen, Japanese original](docs/images/title_screen_before.jpg)
+
+This patch:
+
+![Title screen, this patch](docs/images/title_screen_after.jpg)
 
 More: the world map, Nunuhara memos, help screens and interface in **[Image comparisons](docs/IMAGES.md)**.
 
