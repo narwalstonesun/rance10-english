@@ -88,10 +88,9 @@ If someone actually uses this, and finds a problem please create a github issue.
 have any issues that aren't related to bugs or game problems, also feel free to open an issue anyways, just label it
 appropriately. These issues can be "vibes" based as well, like "This character feels like it was translated poorly",
 or "this scene feels too AI". Just make sure you give me some information to go off of and keep the issues themselves
-spoiler free if possible (idk how possible this request is :D ).
+spoiler free if possible (idk how possible this request is).
 
-
-Also, I haven't actually played or finished the game yet so please no spoilers :D. Playing through it now and fixing
+I haven't actually played or finished the game yet so please no spoilers :D. Playing through it now and fixing
 stuff I stumble across along the way.
 
 ## What's translated
