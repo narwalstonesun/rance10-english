@@ -1,0 +1,27 @@
+name: Translation problem
+description: A wrong, awkward or untranslated line, name or image
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! **Please keep the title spoiler-free** (e.g. "Typo in a Part 1 Leazas scene"); story details go in the description.
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong
+      description: The line as it shows in the game, and what you think it should say (if you know).
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where in the game
+      description: Roughly where it happens (Prologue / Part 1 / Part 2, turn, character event, menu or screen). A screenshot helps a lot.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Patch version
+      placeholder: v2.0.0

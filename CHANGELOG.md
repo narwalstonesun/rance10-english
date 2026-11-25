@@ -1,5 +1,22 @@
 # Changelog
 
+## v2.0.0 - 2026-11-25
+Complete translation. **No longer needs klesun's patch**: the installer works on the plain Japanese 1.04 game, and
+also upgrades klesun 1.04.20 or v1.0.0 / v1.1.0 of this patch in place.
+- Story: the rest of the game retranslated from the Japanese (second half of Part 1, Part 2, Part 2 friendship
+  events, After mode, Synopsis Mode), so the whole story (~270,000 lines) is now this translation. The adult scenes
+  Claude doesn't translate (~33,500 lines) were translated with DeepSeek V4.1 Flash through Venice AI, with the same
+  names, terms and character notes.
+- Punctuation cleanup across the story: no invented dashes, colons or semicolons the Japanese doesn't have.
+- Game-system terms unified across story, interface, cards, tutorials and images (EXP, Meal Ticket, Unit Bonus,
+  Buff/Debuff, all 14 status names).
+- Title screen: the logo subtitle is now -SHOWDOWN-, and the map behind the logo is re-lettered (~115 labels).
+- Images: ending staff credits, the Friendship-5 badge, the redrawn Second Fiend War map, Nunuhara memo list
+  thumbnails, the help screens and memos from the game's later update archives, tiny JAPAN province labels.
+- Numbers shown in English style (35,000 instead of 3万5千), "Total Play Time", survey prompts.
+- Installer: patches are made from the original Japanese files; klesun files are turned back into the originals first;
+  older versions of this patch are updated from the backup made at their install.
+
 ## v1.1.0 - 2026-11-24
 (Includes v1.0.1, which was never published separately.)
 - Story revision, part 1: about 112,000 of the ~250,000 story lines retranslated from the Japanese (Prologue, the

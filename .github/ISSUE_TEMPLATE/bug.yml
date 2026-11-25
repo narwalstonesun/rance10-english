@@ -1,0 +1,24 @@
+name: Install or game problem
+description: The installer fails, the game crashes, or something behaves differently than in the Japanese game
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Please keep the title spoiler-free.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: For installer problems, copy the text from the installer window.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to get there
+      description: What you did just before (menu, screen, turn). A screenshot helps.
+  - type: input
+    id: version
+    attributes:
+      label: Patch version and game version
+      placeholder: v2.0.0, game 1.04
