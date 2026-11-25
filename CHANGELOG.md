@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.0.2 - 2026-11-25
+- Prologue briefing: "a great army of the Monster Army" now reads "a huge Monster Army force" (GitHub #29). A
+  story-wide check found no other place where a fixed term repeats its own word like this.
+- Same installer as v2.0.1; installs over v2.0.1 (or anything older) in place.
+
 ## v2.0.1 - 2026-11-25
 Fixes from play-testing v2.0.0 (GitHub issues #1-#26), plus the first translated movie. Installs over v2.0.0 in place.
 - Opening movie (Part 1): the typed narration is in English, and the name cards / nation banners are re-lettered
