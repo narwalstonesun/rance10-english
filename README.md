@@ -36,8 +36,9 @@ This patch:
 More: the title screen, the world map, Nunuhara memos, help screens and interface in **[Image comparisons](docs/IMAGES.md)**.
 
 **Story text**: the briefing in the Prologue. The machine translation this project started from was done line by
-line, and in places its lines drifted out of step with the script. Here Rance answers "...Why?" with a sentence about
-holding the castle, and the briefing's key lines are replaced by text from elsewhere:
+line, and in places its lines drifted out of step with the script. 
+
+*Author note:* I asked the AI to come up with the best comparison and this is what it came up with
 
 | Speaker | Japanese | Previous fan patch (klesun MTL) | This patch |
 |---|---|---|---|
