@@ -46,7 +46,7 @@ line, and in places its lines drifted out of step with the script.
 | Crook | 「では、私の口から説明させて頂きます」 | "Then, allow me to explain from my side." | "Then, allow me to explain." |
 | Crook | 「今、人類国家は滅亡の危機に瀕しています」 | "Right now, the human nations are facing the brink of extinction." | "Right now, the nations of humanity are facing the threat of extinction." |
 | Rance | 「…………何故だ？」 | Whatever happens, we must hold and defend Rance Castle | "......Why?" |
-| Crook | 「LP7年9月17日、今から二週間ほど前、 魔人ケイブリス率いる魔軍の大軍団が 攻めてきました」 | until the summit meeting concludes. a massive Monster Army led by the Fiend lord Kayblis attacked." | "On September 17th, LP7, about two weeks ago, a great army of the Monster Army led by the Fiend Kayblis attacked." |
+| Crook | 「LP7年9月17日、今から二週間ほど前、 魔人ケイブリス率いる魔軍の大軍団が 攻めてきました」 | until the summit meeting concludes. a massive Monster Army led by the Fiend lord Kayblis attacked." | "On September 17th, LP7, about two weeks ago, a huge Monster Army force led by the Fiend Kayblis attacked." |
 | Crook | 「地図をご覧下さい」 | Indeed. This summit is of paramount importance | "Please look at the map." |
 | Crook | 「リーザス、ゼス、ヘルマン、自由都市、 ランスもご存じの四つの大国が同時に攻め込まれました」 | for the future of humanity. which even Rance knows of - were attacked simultaneously." | "Leazas, Zeth, Helman, the Free Cities... The four great nations you know, Rance, were invaded at the same time." |
 
