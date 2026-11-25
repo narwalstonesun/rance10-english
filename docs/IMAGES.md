@@ -5,6 +5,7 @@ from the Japanese originals: the Japanese is removed, the background repaired, a
 size and colour. Names and terms follow the [AliceSoft Wiki](https://alicesoft.miraheze.org) and the story text.
 The Japanese original is always shown first. Click any image for full size. Everything shown here is interface or map art from the start of the game.
 
+- [In the game](#in-the-game)
 - [Title screen](#title-screen)
 - [Maps](#maps)
 - [Nunuhara memos](#nunuhara-memos)
@@ -12,6 +13,22 @@ The Japanese original is always shown first. Click any image for full size. Ever
 - [Interface](#interface)
 - [Movies](#movies)
 - [What stays in Japanese](#what-stays-in-japanese)
+
+## In the game
+
+Screenshots taken in the game with this patch installed (1920x1080, scaled down).
+
+A battle:
+
+![Battle screen](images/battle_screen.jpg)
+
+Battle preparation:
+
+![Battle preparation screen](images/battle_prep_screen.jpg)
+
+Loading a save:
+
+![Load screen](images/load_screen.jpg)
 
 ## Title screen
 

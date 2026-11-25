@@ -25,15 +25,12 @@ Japanese PC version 1.04.
 
 ## Before and after
 
-**A regional map** (the Free Cities and JAPAN, 82 labels), Japanese original:
+**A battle**, as it looks in the game with this patch:
 
-![Free Cities map, Japanese original](docs/images/free_cities_map_before.jpg)
+![Battle screen with this patch](docs/images/battle_screen.jpg)
 
-This patch:
-
-![Free Cities map, this patch](docs/images/free_cities_map_after.jpg)
-
-More: the title screen, the world map, Nunuhara memos, help screens and interface in **[Image comparisons](docs/IMAGES.md)**.
+More: in-game screenshots, plus before/after comparisons of the title screen, maps, Nunuhara memos, help screens and
+interface in **[Image comparisons](docs/IMAGES.md)**.
 
 **Story text**: the briefing in the Prologue. The machine translation this project started from was done line by
 line, and in places its lines drifted out of step with the script. 
