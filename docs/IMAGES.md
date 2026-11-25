@@ -3,10 +3,10 @@
 Text that is drawn into the game's images (maps, memos, help screens, logos, buttons) was re-lettered by hand
 from the Japanese originals: the Japanese is removed, the background repaired, and English set in a matching font,
 size and colour. Names and terms follow the [AliceSoft Wiki](https://alicesoft.miraheze.org) and the story text.
-Click any image for full size. Everything shown here is interface or map art from the start of the game.
+The Japanese original is always shown first. Click any image for full size. Everything shown here is interface or map art from the start of the game.
 
 - [Title screen](#title-screen)
-- [The world map](#the-world-map)
+- [Maps](#maps)
 - [Nunuhara memos](#nunuhara-memos)
 - [Help screens](#help-screens)
 - [Interface](#interface)
@@ -17,39 +17,83 @@ Click any image for full size. Everything shown here is interface or map art fro
 The logo subtitle 決戦 becomes -SHOWDOWN-, and the map behind the logo is re-lettered (about 115 labels: countries,
 towns, landmarks and the Monster Realm).
 
-![Title screen: Japanese original and this patch](images/title_screen.jpg)
+Japanese original:
+
+![Title screen, Japanese original](images/title_screen_before.jpg)
+
+This patch:
+
+![Title screen, this patch](images/title_screen_after.jpg)
 
 Close-up of the title-screen map around Leazas (brightened here; in the game it sits under the vignette):
 
-![Title map close-up](images/title_map_closeup.jpg)
+Japanese original:
 
-## The world map
+![Title map close-up, Japanese original](images/title_map_closeup_before.jpg)
 
-The world map from the opening, and a close-up of the Zeth region. 69 story maps were re-lettered: this one and its
-variants, every regional and Monster Realm map, and the campaign maps with their commander name tags.
+This patch:
 
-![World map: Japanese original and this patch](images/world_map.jpg)
+![Title map close-up, this patch](images/title_map_closeup_after.jpg)
 
-![Map close-up: Japanese original and this patch](images/map_closeup.jpg)
+## Maps
 
-Full size: [before](images/world_map_before.jpg) / [after](images/world_map_after.jpg),
-close-up [before](images/map_closeup_before.jpg) / [after](images/map_closeup_after.jpg).
+69 story maps were re-lettered: the world map from the opening (below, with a close-up of the Zeth region) and its
+variants, every regional and Monster Realm map (one of them is at the end of this section), and the campaign maps
+with their commander name tags.
+
+Japanese original:
+
+![World map, Japanese original](images/world_map_before.jpg)
+
+This patch:
+
+![World map, this patch](images/world_map_after.jpg)
+
+Close-up of the Zeth region:
+
+Japanese original:
+
+![Map close-up, Japanese original](images/map_closeup_before.jpg)
+
+This patch:
+
+![Map close-up, this patch](images/map_closeup_after.jpg)
+
+A regional map, the Free Cities and JAPAN (82 labels):
+
+Japanese original:
+
+![Free Cities map, Japanese original](images/free_cities_map_before.jpg)
+
+This patch:
+
+![Free Cities map, this patch](images/free_cities_map_after.jpg)
 
 ## Nunuhara memos
 
 The game has 40 memos (Nunuhara's notes on each army and faction), shown as full-screen images. All of them are
 translated from the Japanese, along with the memo list thumbnails.
 
-![Leazas Army memo: Japanese original and this patch](images/leazas_memo.jpg)
+Japanese original:
 
-Full size: [before](images/leazas_memo_before.jpg) / [after](images/leazas_memo_after.jpg).
+![Leazas Army memo, Japanese original](images/leazas_memo_before.jpg)
+
+This patch:
+
+![Leazas Army memo, this patch](images/leazas_memo_after.jpg)
 
 ## Help screens
 
 All 11 help screens (battle, quests, unit bonuses, meal tickets, ...), with the game-system terms used everywhere
 else in the patch.
 
-![Battle help screen: Japanese original and this patch](images/help_battle.jpg)
+Japanese original:
+
+![Battle help screen, Japanese original](images/help_battle_before.jpg)
+
+This patch:
+
+![Battle help screen, this patch](images/help_battle_after.jpg)
 
 ## Interface
 

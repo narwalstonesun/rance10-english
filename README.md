@@ -24,17 +24,15 @@ Japanese PC version 1.04.
 
 ## Before and after
 
-**Title screen**
+**A regional map** (the Free Cities and JAPAN, 82 labels), Japanese original:
 
-Japanese original:
-
-![Title screen, Japanese original](docs/images/title_screen_before.jpg)
+![Free Cities map, Japanese original](docs/images/free_cities_map_before.jpg)
 
 This patch:
 
-![Title screen, this patch](docs/images/title_screen_after.jpg)
+![Free Cities map, this patch](docs/images/free_cities_map_after.jpg)
 
-More: the world map, Nunuhara memos, help screens and interface in **[Image comparisons](docs/IMAGES.md)**.
+More: the title screen, the world map, Nunuhara memos, help screens and interface in **[Image comparisons](docs/IMAGES.md)**.
 
 **Story text**: the briefing in the Prologue. The machine translation this project started from was done line by
 line, and in places its lines drifted out of step with the script. Here Rance answers "...Why?" with a sentence about
