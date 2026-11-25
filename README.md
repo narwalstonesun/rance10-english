@@ -17,7 +17,7 @@ Japanese PC version 1.04.
 > Rance X is an adult (18+) game. This is a fan project, not affiliated with AliceSoft or MangaGamer. It contains no
 > game files: you need your own copy of the Japanese game. Please support the official release.
 
-**[Download v2.0.0](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.0/Rance10-English-Revision-v2.0.0.zip)**
+**[Download v2.0.1](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.1/Rance10-English-Revision-v2.0.1.zip)**
 · [Installation guide](#installation-guide) · [Dialogue comparisons](docs/COMPARISONS.md) ·
 [Image comparisons](docs/IMAGES.md) · [How it was made](docs/METHOD.md) · [Changelog](CHANGELOG.md) ·
 [Report a problem](../../issues/new/choose)
@@ -99,12 +99,13 @@ stuff I stumble across along the way.
 |---|---|
 | Story | All ~270,000 story lines translated from the Japanese: Prologue, Part 1, Part 2, After mode, character events, the Nunuhara memo text and Synopsis Mode. About 236,000 lines by Claude; about 33,500 lines (adult scenes Claude doesn't translate) by the uncensored/abliterated version of DeepSeek V4.1 Flash through Venice AI, with the same names, terms and character notes. |
 | Names and terms | Character names and terms follow the [AliceSoft Wiki](https://alicesoft.miraheze.org) and the official English releases ("Master Rance", "Monster Army", "Fiend"); game-system terms (EXP, Meal Ticket, Unit Bonus, Buff/Debuff, statuses) are the same in the story, the interface and the images. |
-| Images | Title logo and title-screen map; 69 story maps (world, regional, Monster Realm, campaign maps with name tags); 40 Nunuhara memos and their list thumbnails; 11 help screens; about 50 interface images (war-status maps, stamps, Unit Bonus / Unit Rank, EXP labels, collection tabs, ending credits); animated captions ("Meanwhile", war results, "Get!", phase titles). |
+| Images | Title logo and title-screen map; 69 story maps (world, regional, Monster Realm, campaign maps with name tags) and the strategy-screen maps (turn map, War Situation panels, war-status screen, quest maps); 40 Nunuhara memos and their list thumbnails; 11 help screens; about 50 interface images (war-status maps, stamps, Unit Bonus / Unit Rank, EXP labels, collection tabs, ending credits); animated captions ("Meanwhile", war results, battle end, "Get!", phase titles). |
 | Interface | About 1,400 interface and script strings (speaker names, choices, battle logs, dialogs, enemy hints), English number formatting (35,000 instead of 3万5千), status names, card names on item cards, a message font size that fits English. |
 | Data tables | CG gallery and music titles, place names, achievements, all 4,414 character profile lines. |
+| Movies | The typed narration of the Part 1 opening movie and its name cards / nation banners, re-lettered with the original motion. |
 
 **What stays in Japanese**: text painted into the scenery (shop signs, banners), as in the official English
-releases; comments inside saves made before installing. Text inside event CGs has not been checked.
+releases; comments inside saves made before installing; the ending movie (staff roll). Text inside event CGs has not been checked.
 
 ## Installation guide
 
@@ -121,14 +122,14 @@ update from AliceSoft: <https://www.alicesoft.com/support/rance10.html> (Japanes
 update program), then check `Version.txt` again.
 
 ### Step 3 - Download the patch
-Download [`Rance10-English-Revision-v2.0.0.zip`](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.0/Rance10-English-Revision-v2.0.0.zip)
+Download [`Rance10-English-Revision-v2.0.1.zip`](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.1/Rance10-English-Revision-v2.0.1.zip)
 (about 400 MB) from the [Releases](https://github.com/narwalstonesun/rance10-english/releases) page. Right-click the zip,
 choose **Extract All...**, and extract it anywhere (for example your Downloads folder). Don't run anything from
 inside the zip without extracting it first.
 
 ### Step 4 - Run the installer
 1. Close the game if it's running.
-2. Open the extracted `Rance10-English-Revision-v2.0.0` folder and double-click **`Install.bat`**.
+2. Open the extracted `Rance10-English-Revision-v2.0.1` folder and double-click **`Install.bat`**.
 3. Windows may show a security warning because the file came from the internet: click **More info → Run anyway**
    (or **Run**). When Windows asks whether to allow changes (administrator rights to write to Program Files), click
    **Yes**.

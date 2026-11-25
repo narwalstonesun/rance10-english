@@ -63,10 +63,10 @@ before translating their scenes.
 | Speaker | Japanese | Previous fan patch (klesun MTL) | This patch |
 |---|---|---|---|
 | Rance | 「ちっ…… 馬鹿馬鹿しい、大使なんてヤメだ、ヤメ」 | "Tch..." "How ridiculous, I'm quitting this ambassador thing, quitting." | "Tch... Stupid. Forget being an ambassador, forget it." |
-| Kouhime | 「ええっ！？ そ、そんな――」 | "Eh!? N-No way-" | "What?! B-But that's--" |
+| Kouhime | 「ええっ！？ そ、そんな――」 | "Eh!? N-No way-" | "What?! B-But that's―" |
 | Rance | 「ふん、ダメダメ。 こいつら俺の言うことなんて聞きゃしねぇ」 | "Hmph, no good, no good. These guys won't listen to what I say." | "Nope, no good. These guys won't listen to a word I say." |
 | Rance | 「大体、大使だか外交官だが知らんが、 俺が皆に協力を呼びかける…… なんてのがはなから間違いなんだ」 | "Anyway, I don't care if I'm an ambassador or diplomat, calling everyone to cooperate- was a mistake from the start." | "Ambassador, diplomat, whatever, me calling on everyone to cooperate... that's wrong from the get-go." |
-| Rance | 「だから、その代わり――」 | "So instead- | "So instead--" |
+| Rance | 「だから、その代わり――」 | "So instead- | "So instead―" |
 | Rance | 「俺が世界のトップに立ってやる」 | I'll take the top position in the world." | "I'll take the top spot in the world." |
 | Magic | 「え……？」 | "Eh...?" | "Huh...?" |
 | Rance | 「この場にいる奴ら全員、 今日から俺様の部下になれ」 | "Everyone here, starting today, become my subordinates." | "Everyone in this room, as of today you work for me." |
@@ -115,7 +115,7 @@ replaced with a generic line.
 |---|---|---|---|
 | Rance | 「がははは、その通り。 俺がいなきゃただの棒きれだってこと忘れるな」 | "Gahahaha, that's right. Don't forget that without me, it's just a stick." | "Gahahaha, exactly. Don't forget, without me you're just a stick." |
 | Chaos | 「逆逆。 心の友だって儂がいなくちゃあ、 戦うことすら出来ないじゃないの」 | "No, no, the opposite. Even the heart's friend can't fight without me, you know." | "Wrong, wrong. Even you, my kindred spirit, without me can't even fight, can ya?" |
-| Rance | 「なんだと？ 俺様をお前みたいな――」 | "What did you say? How dare you talk to me like that-" | "What? Comparing me to the likes of you--" |
+| Rance | 「なんだと？ 俺様をお前みたいな――」 | "What did you say? How dare you talk to me like that-" | "What? Comparing me to the likes of you―" |
 | Cream | 「んっ、んんっ！ | "Nn, nn! | "Ahem! Ahem! |
 
 ## 7. Honorifics and forms of address
@@ -128,7 +128,7 @@ Japanese titles are translated the way the official English releases do it, inst
 |---|---|---|---|
 | Atago McCart | 「全員で2000人ほどいるらしいけど、 そのうちの一部をうちで面倒見るようにって……」 | "Apparently there are about 2000 in total, and we're supposed to look after part of them..." | "There are about 2,000 of them in all, and he told me to look after some of them here..." |
 | Atago McCart | 「うちは行き場のない人を 迎え入れる場所じゃないってのに……」 | "Our place isn't meant to be a refuge for people with nowhere to go... but here we are..." | "This place isn't a shelter for people with nowhere to go..." |
-| Tama | 「まー、いいんじゃないっすかね。 CITYも避難する人大勢いてすっかり 寂しくなってたところですし」 | "Well, I guess it's fine. There are a lot of evacuees in CITY, and it's become quite quiet too." | "Well, I don't think it's so bad. CITY's gotten all lonely with so many people evacuating, you know." |
+| Tama | 「まー、いいんじゃないっすかね。 CITYも避難する人大勢いてすっかり 寂しくなってたところですし」 | "Well, I guess it's fine. There are a lot of evacuees in CITY, and it's become quite quiet too." | "Well, I don't think it's so bad. Cidade's gotten all lonely with so many people evacuating, you know." |
 | Kalar | 「女将さん、宜しくお願いしまーす」 | "Okami-san, thank you in advance!" | "Ma'am, we're in your care!" |
 
 ## 8. Names and verbal tics

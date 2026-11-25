@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.0.1 - 2026-11-25
+Fixes from play-testing v2.0.0 (GitHub issues #1-#26), plus the first translated movie. Installs over v2.0.0 in place.
+- Opening movie (Part 1): the typed narration is in English, and the name cards / nation banners are re-lettered
+  with the original motion. The ending movie is still Japanese.
+- Place names: one spelling everywhere (maps, memos, story, data tables, interface), city names from the official
+  English releases ("Siberia" / "Icefields", "Razir", "Kaizu" and similar fixed).
+- Maps: place names on the strategy-screen maps (turn map, War Situation panels, war-status screen, quest maps) in
+  English; map labels redrawn on the shape of the original lettering, evenly sized, sharp; region banners re-fitted.
+- War-status screen: English date, commander names in English (also in older saves), the war report rewritten in
+  full sentences, the "Human Army" header no longer runs into the army name.
+- Battle: enemy and character names in attack pop-ups, the battle log and the HP bar in English; the battle-end,
+  war-report and several more animated captions translated; animated captions move per letter, without dark borders.
+- Quests: condition and reward lines, the favored affiliation, the prep quest header and "560,000"-style numbers fixed.
+- Character card profiles fit the box (smaller font, re-wrapped, half-width digits).
+- Text box: "--" shows as one long dash; the log viewer no longer cuts English lines off.
+- Fixed: some sound effects, images, sprites and quest-map voice lines that didn't play because the original machine
+  translation had translated the game's internal names for them.
+- Fixed a few titles that didn't match the character's gender ("King" / "Emperor" for women).
+- Installer: also patches the opening movies (Movie folder); Restore.bat puts those back too.
+
 ## v2.0.0 - 2026-11-25
 Complete translation. **No longer needs klesun's patch**: the installer works on the plain Japanese 1.04 game, and
 also upgrades klesun 1.04.20 or v1.0.0 / v1.1.0 of this patch in place.

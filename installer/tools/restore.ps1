@@ -33,9 +33,11 @@ catch {
     Start-Process powershell -Verb RunAs -ArgumentList @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', "`"$PSCommandPath`"", '-GameDir', "`"$GameDir`"", '-Elevated')
     exit 0
 }
-Get-ChildItem $bak -File | ForEach-Object {
-    Copy-Item -LiteralPath $_.FullName -Destination (Join-Path $GameDir $_.Name) -Force
-    Say "  restored $($_.Name)" 'Green'
+$bakFull = (Resolve-Path -LiteralPath $bak).ProviderPath.TrimEnd([char]92)
+Get-ChildItem -LiteralPath $bakFull -File -Recurse | ForEach-Object {   # includes subfolders (Movie\)
+    $rel = $_.FullName.Substring($bakFull.Length + 1)
+    Copy-Item -LiteralPath $_.FullName -Destination (Join-Path $GameDir $rel) -Force
+    Say "  restored $rel" 'Green'
 }
 Say 'Done. The backup folder was kept; delete it yourself if you no longer need it.' 'Green'
 Done 0

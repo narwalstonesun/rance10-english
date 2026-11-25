@@ -112,7 +112,10 @@ foreach ($p in $plan) {
     Say ''
     Say "Patching $f ..." 'Cyan'
     $b = Join-Path $bak $f
-    if ($p.src -eq $path -and -not (Test-Path $b)) { Copy-Item -LiteralPath $path -Destination $b }
+    if ($p.src -eq $path -and -not (Test-Path $b)) {
+        New-Item -ItemType Directory -Force -Path (Split-Path -Parent $b) | Out-Null   # files in subfolders (Movie\)
+        Copy-Item -LiteralPath $path -Destination $b
+    }
     $in = $p.src; $n = 0
     foreach ($s in $p.steps) {
         $n++; $out = "$path.new$n"

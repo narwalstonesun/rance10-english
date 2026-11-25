@@ -10,6 +10,7 @@ The Japanese original is always shown first. Click any image for full size. Ever
 - [Nunuhara memos](#nunuhara-memos)
 - [Help screens](#help-screens)
 - [Interface](#interface)
+- [Movies](#movies)
 - [What stays in Japanese](#what-stays-in-japanese)
 
 ## Title screen
@@ -69,6 +70,17 @@ This patch:
 
 ![Free Cities map, this patch](images/free_cities_map_after.jpg)
 
+The maps on the strategy screens (turn map, War Situation panels, war-status screen, quest maps) share the story maps'
+labels, with AliceSoft's own painted English re-lettered in its style. The turn map:
+
+Japanese original:
+
+![Turn map, Japanese original](images/turn_map_before.jpg)
+
+This patch:
+
+![Turn map, this patch](images/turn_map_after.jpg)
+
 ## Nunuhara memos
 
 The game has 40 memos (Nunuhara's notes on each army and faction), shown as full-screen images. All of them are
@@ -99,10 +111,15 @@ This patch:
 
 About 50 more interface images: war-status maps, occupied-country stamps, Unit Bonus / Unit Rank, Interrupt Chance,
 EXP labels, collection tabs, ending-credit names, the animated captions ("Meanwhile", war results, "Get!", phase
-titles), and the comma digit groups in numbers. Where the previous fan patch had already translated an image, it was
+titles, battle-end and war-report captions), and the comma digit groups in numbers. Where the previous fan patch had already translated an image, it was
 redone when the wording or the lettering didn't match the game. For example, the war-status header:
 
 ![War-status header: previous fan patch and this patch](images/war_status_header.jpg)
+
+## Movies
+
+The typed narration of the Part 1 opening movie is in English, and its name cards and nation banners are re-lettered
+with the original motion. Only the frames with text are re-encoded. The ending movie (staff roll) is still Japanese.
 
 ## What stays in Japanese
 
