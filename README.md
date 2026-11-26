@@ -18,7 +18,7 @@ Japanese PC version 1.04.
 > Rance X is an adult (18+) game. This is a fan project, not affiliated with AliceSoft or MangaGamer. It contains no
 > game files: you need your own copy of the Japanese game. Please support the official release.
 
-**[Download v2.0.4](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.4/Rance10-English-Revision-v2.0.4.zip)**
+**[Download v2.0.5](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.5/Rance10-English-Revision-v2.0.5.zip)**
 · [Installation guide](#installation-guide) · [Dialogue comparisons](docs/COMPARISONS.md) ·
 [Image comparisons](docs/IMAGES.md) · [How it was made](docs/METHOD.md) · [Changelog](CHANGELOG.md) ·
 [Report a problem](../../issues/new/choose)
@@ -125,14 +125,14 @@ update from AliceSoft: <https://www.alicesoft.com/support/rance10.html> (Japanes
 update program), then check `Version.txt` again.
 
 ### Step 3 - Download the patch
-Download [`Rance10-English-Revision-v2.0.4.zip`](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.4/Rance10-English-Revision-v2.0.4.zip)
+Download [`Rance10-English-Revision-v2.0.5.zip`](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.5/Rance10-English-Revision-v2.0.5.zip)
 (about 1.1 GB) from the [Releases](https://github.com/narwalstonesun/rance10-english/releases) page. Right-click the zip,
 choose **Extract All...**, and extract it anywhere (for example your Downloads folder). Don't run anything from
 inside the zip without extracting it first.
 
 ### Step 4 - Run the installer
 1. Close the game if it's running.
-2. Open the extracted `Rance10-English-Revision-v2.0.4` folder and double-click **`Install.bat`**.
+2. Open the extracted `Rance10-English-Revision-v2.0.5` folder and double-click **`Install.bat`**.
 3. Windows may show a security warning because the file came from the internet: click **More info → Run anyway**
    (or **Run**). When Windows asks whether to allow changes (administrator rights to write to Program Files), click
    **Yes**.

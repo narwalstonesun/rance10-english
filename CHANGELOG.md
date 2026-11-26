@@ -1,5 +1,19 @@
 # Changelog
 
+## v2.0.5 - 2026-11-27
+Fix round (GitHub #46, #55, #57, #58). Installs over v2.0.4 (or anything older) in place.
+- Text boxes (#58): a box is often several lines of the script shown one after another, and the English kept the
+  Japanese line breaks (two short lines, then a full one). Where a sentence continues onto the next line, the lines
+  now run on as one paragraph wrapped to the box width; a break after the end of a sentence stays. About 40,000
+  places, about 15,000 fewer lines; backlog, skip, voices and read-text marks work as before.
+- Maps (#57): the town by Rance Castle reads "Cidade" on every map, war-situation panel, the flag plate and the title
+  map (some still showed AliceSoft's painted "CITY").
+- Config (#55): the note under "Accelerate Skip Mode" names the "Skip Mode Speed" slider as it is labelled.
+- Opening movie (#46): in the third movie, the art behind the name tags comes from the game's own character images
+  instead of a synthesised fill (no more shimmer in the held shot before the fiend cards), the map behind the nation
+  tags keeps its moving stripes, single-frame jumps are smoothed, and two short moments that still showed Japanese
+  (the Helman wipe and one fast pan) are fixed.
+
 ## v2.0.4 - 2026-11-26
 Fix round from play-testing (GitHub #27, #30, #32-#53). Installs over v2.0.3 (or anything older) in place.
 - **Crash fixed (#45):** the game closed by itself right after the war report at the end of turn 1 (every version
