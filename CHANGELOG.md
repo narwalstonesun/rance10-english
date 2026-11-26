@@ -1,5 +1,46 @@
 # Changelog
 
+## v2.0.4 - 2026-11-26
+Fix round from play-testing (GitHub #27, #30, #32-#53). Installs over v2.0.3 (or anything older) in place.
+- **Crash fixed (#45):** the game closed by itself right after the war report at the end of turn 1 (every version
+  since v2.0.1). The English number formatting added to the war report called an engine function the wrong way; it
+  now formats numbers like the original code. Every other piece of game code the patch changes (41 functions) and
+  the translated data were then checked by hand for anything similar; nothing else that could crash was found, and
+  a build check now rejects this kind of mistake.
+- Turn-end screen (#50): the monologue no longer loses every letter "r" (the game used "r" as its line-break
+  marker), the header reads "(Turn 1) ended" and the death count shows the real number; the same fix applies to
+  the item/bonus pop-ups on the quest map, battle-log lines keep their commas, and status descriptions are back to
+  normal capitalisation.
+- Text box (#49): the small title above the speaker's name plate is in English for every character (e.g. "Hero",
+  not 勇者), with the wiki spellings.
+- Quest result (#47): the "Total EXP" header is in English (it was still 累積EXP).
+- Quest screens (#48): the date under the TURN medallion fits on screen (the "L" of "LP7" was cut off).
+- Untranslated labels (#51): the playthrough-bonus panel title ("Playthrough Bonuses") and 16 more small labels
+  drawn in stylised lettering (Seen, Unavailable, Achieved, CONFIRM, FALLEN, Alice's Mansion, ...).
+- Quest-map choices (#52): texts like "Take care." show real spaces instead of hyphens.
+- Card faces (#53): long affiliation names no longer overlap the label.
+- Japanese left in data-driven text (#40): every place the game draws text from its data tables was traced; the
+  rest (trophy names, secretary names, card names in dialogs, save comments, battle-log names, ...) is English.
+- Maps: the old "Rising Dragon Mountain" text no longer shows twice on the war-status screens (#41), the Barao
+  Mountains keep AliceSoft's own curved English label (#42), no blurred patch where an old label was erased (#43).
+- Terminology (#44): JAPAN is called "Nippon" everywhere, as in the official English releases (text, maps, buttons).
+- Battle screen: enemy unit names are in English also when the game adds a count or difficulty mark ("Weak
+  Monsters (8)"), for every enemy (#30).
+- Phase titles: the big-initial captions sit on the line like the Japanese (#34).
+- Maps: the L·C·M Mountains keep AliceSoft's own painted English label along the range (#33).
+- Smaller download: the Rance10Flat.afa patch is made against the official 1.04 file (about 84 MB instead of about
+  900 MB); the download is about 1.1 GB instead of 1.7 GB (#35).
+- Installer: shows the game folder it found and lets you accept it or type/pick another, with a numbered list when
+  there are several copies; Restore asks the same way; `-GameDir` still works without questions (#36).
+- Battle log: natural wording and normal punctuation ("took 1282 damage!" instead of "took 1282 of damage !"), the
+  game's system terms, one message that was still Japanese translated; quest reward pop-ups cleaned up the same way (#37).
+- Battle result: "Treasure Chance", "Final EXP" and "Total EXP" have a space between the words (#38).
+- Title animation: -SHOWDOWN- appears at its final size and place during the logo reveal (#39).
+- Opening movies (#27): the third movie's name cards and banners are styled like the Japanese lettering (outline, glow,
+  bevel, texture) and the Japanese is removed without ghost strokes; its title card and end logo (-SHOWDOWN-) are in
+  English; the narration in the first two movies types smoothly with per-letter fades, a lighter weight and an even
+  glow. The ending movie is still Japanese.
+
 ## v2.0.3 - 2026-11-26
 - Installer works on a clean Japanese 1.04 game (GitHub #31). Since v2.0.0 the patches had been made from five game
   files that came from an older English patch instead of AliceSoft's own 1.04 files, so a clean game was refused

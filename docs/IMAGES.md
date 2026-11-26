@@ -5,6 +5,7 @@ from the Japanese originals: the Japanese is removed, the background repaired, a
 size and colour. Names and terms follow the [AliceSoft Wiki](https://alicesoft.miraheze.org) and the story text.
 The Japanese original is always shown first. Click any image for full size. Everything shown here is interface or map art from the start of the game.
 
+- [Three versions side by side](#three-versions-side-by-side)
 - [In the game](#in-the-game)
 - [Title screen](#title-screen)
 - [Maps](#maps)
@@ -14,11 +15,39 @@ The Japanese original is always shown first. Click any image for full size. Ever
 - [Movies](#movies)
 - [What stays in Japanese](#what-stays-in-japanese)
 
+## Three versions side by side
+
+The same saves and the same clicks in three versions of the game: the official Japanese 1.04, klesun's machine
+translation 1.04.20 (the previous fan patch), and this patch. Only screens where the three differ are shown (damage numbers differ because battle damage is random).
+
+Turn map:
+
+![Turn map: Japanese 1.04, klesun MTL, this patch](images/cmp3_turnmap.jpg)
+
+Quest map:
+
+![Quest map: Japanese 1.04, klesun MTL, this patch](images/cmp3_questmap.jpg)
+
+Text box (name plate, job title, quest header):
+
+![Text box (name plate, job title, quest header): Japanese 1.04, klesun MTL, this patch](images/cmp3_textbox.jpg)
+
+Battle: first hit and the battle log line:
+
+![Battle: first hit and the battle log line: Japanese 1.04, klesun MTL, this patch](images/cmp3_battlelog.jpg)
+
 ## In the game
 
-Screenshots taken in the game with this patch installed (1920x1080, scaled down).
+Screenshots taken in the game (1920x1080, scaled down): the official Japanese 1.04 game first, then the same
+screen with this patch. All from the opening of the game. More in-game screens: [Three versions side by side](#three-versions-side-by-side).
 
-Loading a save:
+Battle preparation (enemy unit name and count, route table, card skills):
+
+![Battle preparation, Japanese original](images/ingame_battleprep_before.jpg)
+
+![Battle preparation, this patch](images/ingame_battleprep_after.jpg)
+
+Loading a save (this patch):
 
 ![Load screen](images/load_screen.jpg)
 
@@ -69,7 +98,7 @@ This patch:
 
 ![Map close-up, this patch](images/map_closeup_after.jpg)
 
-A regional map, the Free Cities and JAPAN (82 labels):
+A regional map, the Free Cities and Nippon (82 labels):
 
 Japanese original:
 
@@ -80,15 +109,8 @@ This patch:
 ![Free Cities map, this patch](images/free_cities_map_after.jpg)
 
 The maps on the strategy screens (turn map, War Situation panels, war-status screen, quest maps) share the story maps'
-labels, with AliceSoft's own painted English re-lettered in its style. The turn map:
-
-Japanese original:
-
-![Turn map, Japanese original](images/turn_map_before.jpg)
-
-This patch:
-
-![Turn map, this patch](images/turn_map_after.jpg)
+labels, with AliceSoft's own painted English re-lettered in its style (see the turn map in
+[Three versions side by side](#three-versions-side-by-side)).
 
 ## Nunuhara memos
 
@@ -128,7 +150,38 @@ redone when the wording or the lettering didn't match the game. For example, the
 ## Movies
 
 The typed narration of the Part 1 opening movie is in English, and its name cards and nation banners are re-lettered
-with the original motion. Only the frames with text are re-encoded. The ending movie (staff roll) is still Japanese.
+with the original motion: the lettering takes its outline, glow, bevel and texture from the Japanese on the same card,
+and the Japanese is removed without afterimages. The title logo at the end reads -SHOWDOWN-. Only the frames with text
+are re-encoded. The ending movie (staff roll) is still Japanese.
+
+Short clips taken straight from the movie files: each plays the Japanese original first, then the same stretch from
+this patch (with the original sound). The previews below are small and low frame rate; click one (or the link) for
+the MP4 (720p).
+
+Typed narration, first movie:
+
+[![Narration, first movie (preview)](videos/narration_OP1A.webp)](videos/narration_OP1A.mp4)
+[narration_OP1A.mp4](videos/narration_OP1A.mp4) (26 s, 5.9 MB)
+
+Typed narration, second movie:
+
+[![Narration, second movie (preview)](videos/narration_OP1B.webp)](videos/narration_OP1B.mp4)
+[narration_OP1B.mp4](videos/narration_OP1B.mp4) (26 s, 8.2 MB)
+
+Nation banners and name tags, third movie:
+
+[![Nation banners (preview)](videos/banners_OP1C.webp)](videos/banners_OP1C.mp4)
+[banners_OP1C.mp4](videos/banners_OP1C.mp4) (17 s, 14.3 MB)
+
+Name cards, third movie:
+
+[![Name cards (preview)](videos/cards_OP1C.webp)](videos/cards_OP1C.mp4)
+[cards_OP1C.mp4](videos/cards_OP1C.mp4) (22 s, 14.0 MB)
+
+Title logo at the end of the third movie:
+
+[![Title logo (preview)](videos/logo_OP1C.webp)](videos/logo_OP1C.mp4)
+[logo_OP1C.mp4](videos/logo_OP1C.mp4) (9 s, 4.4 MB)
 
 ## What stays in Japanese
 

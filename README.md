@@ -18,14 +18,14 @@ Japanese PC version 1.04.
 > Rance X is an adult (18+) game. This is a fan project, not affiliated with AliceSoft or MangaGamer. It contains no
 > game files: you need your own copy of the Japanese game. Please support the official release.
 
-**[Download v2.0.3](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.3/Rance10-English-Revision-v2.0.3.zip)**
+**[Download v2.0.4](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.4/Rance10-English-Revision-v2.0.4.zip)**
 · [Installation guide](#installation-guide) · [Dialogue comparisons](docs/COMPARISONS.md) ·
 [Image comparisons](docs/IMAGES.md) · [How it was made](docs/METHOD.md) · [Changelog](CHANGELOG.md) ·
 [Report a problem](../../issues/new/choose)
 
 ## Before and after
 
-**A regional map** (the Free Cities and JAPAN, 82 labels), Japanese original:
+**A regional map** (the Free Cities and Nippon, 82 labels), Japanese original:
 
 ![Free Cities map, Japanese original](docs/images/free_cities_map_before.jpg)
 
@@ -33,7 +33,11 @@ This patch:
 
 ![Free Cities map, this patch](docs/images/free_cities_map_after.jpg)
 
-More: the title screen, the world map, Nunuhara memos, help screens and interface in **[Image comparisons](docs/IMAGES.md)**.
+**The same screen in three versions** (Japanese 1.04 | klesun MTL | this patch), a battle:
+
+![Battle log: Japanese 1.04, klesun MTL, this patch](docs/images/cmp3_battlelog.jpg)
+
+More: 3-way comparisons of the turn map, quest map and a text box, the title screen, the world map, Nunuhara memos, help screens and interface in **[Image comparisons](docs/IMAGES.md)**.
 
 **Story text**: the briefing in the Prologue. The machine translation this project started from was done line by
 line, and in places its lines drifted out of step with the script. 
@@ -121,18 +125,21 @@ update from AliceSoft: <https://www.alicesoft.com/support/rance10.html> (Japanes
 update program), then check `Version.txt` again.
 
 ### Step 3 - Download the patch
-Download [`Rance10-English-Revision-v2.0.3.zip`](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.3/Rance10-English-Revision-v2.0.3.zip)
-(about 1.6 GB) from the [Releases](https://github.com/narwalstonesun/rance10-english/releases) page. Right-click the zip,
+Download [`Rance10-English-Revision-v2.0.4.zip`](https://github.com/narwalstonesun/rance10-english/releases/download/v2.0.4/Rance10-English-Revision-v2.0.4.zip)
+(about 1.1 GB) from the [Releases](https://github.com/narwalstonesun/rance10-english/releases) page. Right-click the zip,
 choose **Extract All...**, and extract it anywhere (for example your Downloads folder). Don't run anything from
 inside the zip without extracting it first.
 
 ### Step 4 - Run the installer
 1. Close the game if it's running.
-2. Open the extracted `Rance10-English-Revision-v2.0.3` folder and double-click **`Install.bat`**.
+2. Open the extracted `Rance10-English-Revision-v2.0.4` folder and double-click **`Install.bat`**.
 3. Windows may show a security warning because the file came from the internet: click **More info → Run anyway**
    (or **Run**). When Windows asks whether to allow changes (administrator rights to write to Program Files), click
    **Yes**.
-4. A window shows the progress. It checks every game file first (about a minute), backs up the files it will change,
+4. The installer shows the game folder it found. Press **Enter** to use it, or type (or paste) another folder and
+   press Enter; **B** opens a folder window. If it finds more than one Rance X folder, it lists them with numbers:
+   type the number of the one to patch.
+5. A window shows the progress. It checks every game file first (about a minute), backs up the files it will change,
    patches them and verifies the result. Wait for **"All done"**, then press Enter.
 
 That's it - start the game. Existing saves keep working and show the new text.
@@ -151,13 +158,17 @@ Just run `Install.bat`; there's nothing to remove first.
 - **"... its backup in _EnglishRevision_backup is missing"**: you have an older version of this patch but deleted its
   backup folder. Reinstall the game (or restore the original files), then run `Install.bat`.
 - **"This patch needs game version 1.04"**: do Step 2.
-- **"Could not find Rance10.exe"**: run `Install.bat` again and pick your game folder when it asks.
+- **"Could not find Rance10.exe"**: run `Install.bat` again and type the folder that contains `Rance10.exe` (or
+  press **B** to pick it in a window).
+- **Patch a specific folder without questions**: in PowerShell, in the extracted folder, run
+  `powershell -ExecutionPolicy Bypass -File tools\apply.ps1 -GameDir "D:\Games\Rance X"` (use `tools\restore.ps1`
+  the same way to undo). Quote the path if it has spaces.
 - **"Please close the game first"**: close Rance X and run it again.
 - **Running it twice is safe**: files that are already patched are recognised and skipped.
 
 ### Uninstall
 Run **`Restore.bat`** from the same folder. It copies back the files saved in `_EnglishRevision_backup` inside the
-game folder (the files as they were before the first install). You can delete that backup folder once you're happy.
+game folder (the files as they were before the first install); it asks for the game folder the same way. You can delete that backup folder once you're happy.
 
 ## FAQ
 
