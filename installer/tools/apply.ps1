@@ -168,28 +168,79 @@ if ($problems.Count) {
 }
 if (-not $plan.Count) { Say ''; Say 'Everything is already patched.' 'Green'; Done 0 }
 
-New-Item -ItemType Directory -Force -Path $bak | Out-Null
-foreach ($p in $plan) {
-    $f = $p.file; $path = Join-Path $GameDir $f
-    Say ''
-    Say "Patching $f ..." 'Cyan'
-    $b = Join-Path $bak $f
-    if ($p.src -eq $path -and -not (Test-Path $b)) {
-        New-Item -ItemType Directory -Force -Path (Split-Path -Parent $b) | Out-Null   # files in subfolders (Movie\)
-        Copy-Item -LiteralPath $path -Destination $b
+# Everything below runs in three phases so that a failure never leaves a mixed install:
+#   1. build every result into <game folder>\_er_work and check its MD5 (the game files are not touched)
+#   2. back up the originals to _EnglishRevision_backup
+#   3. move the results into place; if that fails part-way, put the already-moved files back from the backup
+# xdelta3 is only ever given plain ASCII relative names (it reads paths through the ANSI code page, so a Japanese or
+# accented folder name such as the default Japanese game folder name became ???10; GitHub #69): it runs with the game folder as its current
+# folder, the patch is copied to _er_work\p.xd, and the folder names it sees are _er_work / _EnglishRevision_backup.
+$work = Join-Path $GameDir '_er_work'
+function Clean-Work { Remove-Item -LiteralPath $work -Recurse -Force -ErrorAction SilentlyContinue }
+function Fail($msg) { Clean-Work; Say "  $msg" 'Red'; Say '  No game file was changed.' 'Red'; Done 1 }
+Clean-Work
+New-Item -ItemType Directory -Force -Path $work | Out-Null
+$results = @()
+$oldCwd = [Environment]::CurrentDirectory
+try {
+    [Environment]::CurrentDirectory = $GameDir; Set-Location -LiteralPath $GameDir
+    $k = 0
+    foreach ($p in $plan) {
+        $f = $p.file; $k++
+        Say ''
+        Say "Preparing $f ..." 'Cyan'
+        # source as a relative name: a file in the game folder, or its copy in the backup folder
+        $srcFull = (Resolve-Path -LiteralPath $p.src).ProviderPath
+        $inRel = $srcFull.Substring($GameDir.TrimEnd([char]92).Length + 1)
+        $n = 0; $tmp = @()
+        foreach ($s in $p.steps) {
+            $n++
+            $outRel = "_er_work\f$k.$n"
+            Copy-Item -LiteralPath (Join-Path $pd $s.patch) -Destination (Join-Path $work 'p.xd') -Force
+            & $xd -d -f -s $inRel '_er_work\p.xd' $outRel
+            if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $outRel)) { Fail "xdelta failed for $f." }
+            if ((Md5 $outRel) -ne $s.target_md5) { Fail "Result check failed for $f." }
+            if ($tmp.Count) { Remove-Item -LiteralPath $tmp[-1] -Force }
+            $tmp += $outRel; $inRel = $outRel
+        }
+        $results += [pscustomobject]@{ file = $f; new = $inRel; src = $p.src }
     }
-    $in = $p.src; $n = 0
-    foreach ($s in $p.steps) {
-        $n++; $out = "$path.new$n"
-        & $xd -d -f -s "$in" (Join-Path $pd $s.patch) "$out"
-        if ($LASTEXITCODE -ne 0 -or -not (Test-Path $out)) { Say "  xdelta failed for $f; the file was not changed." 'Red'; Done 1 }
-        if ((Md5 $out) -ne $s.target_md5) { Remove-Item $out -Force; Say "  Result check failed for $f; the file was not changed." 'Red'; Done 1 }
-        if ($in -like "$path.new*") { Remove-Item -LiteralPath $in -Force }
-        $in = $out
+} catch { Fail "Unexpected error: $($_.Exception.Message)" }
+finally { [Environment]::CurrentDirectory = $oldCwd }
+
+# phase 2: back up the originals (a file that is already in the backup folder is never overwritten)
+try {
+    New-Item -ItemType Directory -Force -Path $bak | Out-Null
+    foreach ($r in $results) {
+        $path = Join-Path $GameDir $r.file; $b = Join-Path $bak $r.file
+        if ($r.src -eq $path -and -not (Test-Path -LiteralPath $b)) {
+            New-Item -ItemType Directory -Force -Path (Split-Path -Parent $b) | Out-Null   # files in subfolders (Movie\)
+            Copy-Item -LiteralPath $path -Destination $b
+            if ((Md5 $b) -ne (Md5 $path)) { throw "backup copy of $($r.file) does not match" }
+        }
     }
-    Move-Item -LiteralPath $in -Destination $path -Force
-    Say "  done" 'Green'
+} catch { Fail "Could not make the backup: $($_.Exception.Message)" }
+
+# phase 3: move everything into place
+$moved = @()
+try {
+    foreach ($r in $results) {
+        $path = Join-Path $GameDir $r.file
+        Move-Item -LiteralPath (Join-Path $GameDir $r.new) -Destination $path -Force
+        $moved += $r
+        Say "  $($r.file) - patched" 'Green'
+    }
+} catch {
+    Say "  Could not put the new files in place: $($_.Exception.Message)" 'Red'
+    Say '  Putting the old files back ...' 'Yellow'
+    foreach ($r in $moved) {
+        try { Copy-Item -LiteralPath (Join-Path $bak $r.file) -Destination (Join-Path $GameDir $r.file) -Force } catch { Say "  could not restore $($r.file); run Restore.bat" 'Red' }
+    }
+    Clean-Work
+    Say '  The game files were put back as they were.' 'Red'
+    Done 1
 }
+Clean-Work
 Say ''
 Say 'All done. The files as they were before are in _EnglishRevision_backup inside the game folder; Restore.bat puts them back.' 'Green'
 Done 0

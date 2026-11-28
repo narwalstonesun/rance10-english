@@ -118,6 +118,8 @@ about 10 minutes, most of it downloading.
 ### Step 1 - Find your game folder
 The default location is `C:\Program Files (x86)\AliceSoft\ランス１０` (the last folder name is "Rance 10" in
 Japanese). It's the folder that contains `Rance10.exe`. If you installed the game elsewhere, use that folder below.
+A Japanese folder name is fine; the installer works on it (versions before 2.0.6 failed on it with an
+"xdelta3: file open failed ... ???10" error and need the game copied to a plain path like `C:\Games\Rance10`).
 
 ### Step 2 - Update the game to version 1.04
 Open `Version.txt` in the game folder. If it says `1.04`, skip to Step 3. Otherwise download and run the official
