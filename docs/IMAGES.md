@@ -6,7 +6,6 @@ size and colour. In v2.0.5 the map lettering was refined so the names look paint
 into the art. Names and terms follow the [AliceSoft Wiki](https://alicesoft.miraheze.org) and the story text.
 The Japanese original is always shown first. Click any image for full size. Everything shown here is interface or map art from the start of the game.
 
-- [Three versions side by side](#three-versions-side-by-side)
 - [In the game](#in-the-game)
 - [Title screen](#title-screen)
 - [Maps](#maps)
@@ -16,31 +15,34 @@ The Japanese original is always shown first. Click any image for full size. Ever
 - [Movies](#movies)
 - [What stays in Japanese](#what-stays-in-japanese)
 
-## Three versions side by side
+## In the game
 
-The same saves and the same clicks in three versions of the game: the official Japanese 1.04, klesun's machine
-translation 1.04.20 (the previous fan patch), and this patch. Only screens where the three differ are shown (damage numbers differ because battle damage is random).
+Screenshots taken in the game (1920x1080, scaled down) with the same saves and the same clicks: the official
+Japanese 1.04 game first, then the same screen with this patch. All from the opening of the game.
 
 Turn map:
 
-![Turn map: Japanese 1.04, klesun MTL, this patch](images/cmp3_turnmap.jpg)
+![Turn map, Japanese original](images/turn_map_before.jpg)
+
+![Turn map, this patch](images/turn_map_after.jpg)
 
 Quest map:
 
-![Quest map: Japanese 1.04, klesun MTL, this patch](images/cmp3_questmap.jpg)
+![Quest map, Japanese original](images/quest_map_before.jpg)
+
+![Quest map, this patch](images/quest_map_after.jpg)
 
 Text box (name plate, job title, quest header):
 
-![Text box (name plate, job title, quest header): Japanese 1.04, klesun MTL, this patch](images/cmp3_textbox.jpg)
+![Text box, Japanese original](images/textbox_before.jpg)
 
-Battle: first hit and the battle log line:
+![Text box, this patch](images/textbox_after.jpg)
 
-![Battle: first hit and the battle log line: Japanese 1.04, klesun MTL, this patch](images/cmp3_battlelog.jpg)
+Battle: first hit and the battle log line (damage numbers differ because battle damage is random):
 
-## In the game
+![Battle, Japanese original](images/battle_before.jpg)
 
-Screenshots taken in the game (1920x1080, scaled down): the official Japanese 1.04 game first, then the same
-screen with this patch. All from the opening of the game. More in-game screens: [Three versions side by side](#three-versions-side-by-side).
+![Battle, this patch](images/battle_after.jpg)
 
 Battle preparation (enemy unit name and count, route table, card skills):
 
@@ -116,7 +118,7 @@ This patch:
 ![Free Cities map, this patch](images/free_cities_map_after.jpg)
 
 The maps on the strategy screens (turn map, War Situation panels, war-status screen, quest maps) share the story maps'
-labels and lettering (see the turn map in [Three versions side by side](#three-versions-side-by-side)). A War
+labels and lettering (see the turn map in [In the game](#in-the-game)). A War
 Situation panel, the Helman front:
 
 Japanese original:
