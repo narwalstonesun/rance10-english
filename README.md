@@ -6,9 +6,13 @@ An unofficial, complete English translation patch for **Rance X -Showdown-** (�
 Japanese PC version 1.04.
 
 - **The whole story retranslated from the Japanese**: about 270,000 lines, scene by scene, with every character's
-  voice modelled on MangaGamer's official English releases of the earlier Rance games.
-- **Images re-lettered**: the title screen, 69 story maps and the strategy-screen maps, all 40 Nunuhara memos, all
-  11 help screens and about 50 interface images, plus the animated captions.
+  voice modelled on MangaGamer's official English releases of the earlier Rance games, then read again in a
+  localisation pass against the Japanese.
+- **Maps lettered like the official English maps**: the title-screen map, 69 story maps and the strategy-screen maps
+  (turn map, War Situation panels, quest maps), with the English painted into the art in the style of the official
+  English map lettering.
+- **Other images re-lettered**: all 40 Nunuhara memos, all 11 help screens and about 50 interface images, plus the
+  animated captions.
 - **Opening movie in English**: the Part 1 opening's typed narration and its name cards.
 - **Interface and data**: menus, battle logs, cards, character profiles, CG and music titles, achievements.
 - **One installer** for the plain Japanese game. No other patch needed, it also installs over klesun's machine
@@ -103,8 +107,8 @@ don't really know what to expect after posting this. Also, I don't know Japanese
 | Story | All ~270,000 story lines translated from the Japanese: Prologue, Part 1, Part 2, After mode, character events, the Nunuhara memo text and Synopsis Mode. About 236,000 lines by Claude; about 33,500 lines (adult scenes Claude doesn't translate) by the uncensored/abliterated version of DeepSeek V4.1 Flash through Venice AI, with the same names, terms and character notes. |
 | Names and terms | Character names and terms follow the [AliceSoft Wiki](https://alicesoft.miraheze.org) and the official English releases ("Master Rance", "Monster Army", "Fiend"); game-system terms (EXP, Meal Ticket, Unit Bonus, Buff/Debuff, statuses) are the same in the story, the interface and the images. |
 | Images | Title logo and title-screen map; 69 story maps (world, regional, Monster Realm, campaign maps with name tags) and the strategy-screen maps (turn map, War Situation panels, war-status screen, quest maps); 40 Nunuhara memos and their list thumbnails; 11 help screens; about 50 interface images (war-status maps, stamps, Unit Bonus / Unit Rank, EXP labels, collection tabs, ending credits); animated captions ("Meanwhile", war results, battle end, "Get!", phase titles). |
-| Interface | About 1,400 interface and script strings (speaker names, choices, battle logs, dialogs, enemy hints), English number formatting (35,000 instead of 3万5千), status names, card names on item cards, a message font size that fits English. |
-| Data tables | CG gallery and music titles, place names, achievements, all 4,414 character profile lines. |
+| Interface | About 1,400 interface and script strings (speaker names, choices, battle logs, dialogs, enemy hints), quest-map captions and assistant lines, English number formatting (35,000 instead of 3万5千), status names, card names on item cards, a message font size that fits English. |
+| Data tables | CG gallery and music titles, place names, achievements, all 4,414 character profile lines, the card-get profiles. |
 | Movies | The typed narration of the Part 1 opening movie and its name cards / nation banners, re-lettered with the original motion. |
 
 **What stays in Japanese**: text painted into the scenery (shop signs, banners), as in the official English
@@ -118,7 +122,7 @@ about 10 minutes, most of it downloading.
 ### Step 1 - Find your game folder
 The default location is `C:\Program Files (x86)\AliceSoft\ランス１０` (the last folder name is "Rance 10" in
 Japanese). It's the folder that contains `Rance10.exe`. If you installed the game elsewhere, use that folder below.
-A Japanese folder name is fine; the installer works on it (versions before 2.0.6 failed on it with an
+A Japanese folder name is fine; the installer works on it (versions before 2.0.5 failed on it with an
 "xdelta3: file open failed ... ???10" error and need the game copied to a plain path like `C:\Games\Rance10`).
 
 ### Step 2 - Update the game to version 1.04

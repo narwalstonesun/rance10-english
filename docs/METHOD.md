@@ -41,12 +41,32 @@ About 33,500 lines (adult scenes that Claude doesn't translate) were translated 
 through Venice AI, given the same house style, voice entries, names and terms, then checked for structure (every line present
 and in its place, no Japanese left) and run through the same house-style fixes.
 
+## Localisation pass (v2.0.5)
+
+After the first full translation, every story batch was read again against the Japanese for two problems a scene-by-
+scene translation still leaves: narration that keeps the Japanese sentence shape and reads stiffly in English, and
+dialogue where a joke, idiom, set phrase or sound word was translated word for word and stopped doing what it does in
+the Japanese. The rule is the one MangaGamer's releases follow: keep the Japanese flavour readers know from the
+series (honorifics, "Gahahaha!", character tics), fix only clear failures, never weaken a line. Claude Opus rewrote
+the narration it flagged, Claude Sonnet spotted and fixed the dialogue with the Japanese in front of it, and Opus
+reviewed the changes, checking anything that grew against the Japanese so no detail was invented. About 13,000 lines
+changed, most of them narration. The quest-map captions and assistant lines and the card-get profiles were
+retranslated from the Japanese the same way.
+
 ## Images
 
 Text inside images was found by OCR across every game archive, then each image was re-lettered: the Japanese
 removed, the background repaired, and the English set in a matching font, size, colour and effect, with names taken
 from the story text so maps and dialogue agree. Every image has a status in a checklist, so nothing is skipped by
 accident. Painted scenery text (shop signs, banners) is left as it is, as the official releases do.
+
+The maps got a second pass in v2.0.5, modelled on the official English map lettering: one classical serif in
+capitals and small caps, long names stacked instead of squeezed, region names lettered along the banner scrolls, gold
+captions redrawn in AliceSoft's outlined style along the coast, wall or bridge they name. Only the pixels of the
+Japanese letters are erased (lines, icons and coasts under them are protected and redrawn), and the new ink takes
+the paper's colour, grain and scanlines instead of sitting on top as flat colour. All of it is ordinary image
+processing in Python, measured on each map; no image-generation model redraws AliceSoft's art. Every map was then
+compared with the Japanese at 3-4x for placement and leftovers.
 
 ## Interface and game data
 

@@ -1,18 +1,57 @@
 # Changelog
 
-## v2.0.5 - 2026-11-27
-Fix round (GitHub #46, #55, #57, #58). Installs over v2.0.4 (or anything older) in place.
-- Text boxes (#58): a box is often several lines of the script shown one after another, and the English kept the
-  Japanese line breaks (two short lines, then a full one). Where a sentence continues onto the next line, the lines
-  now run on as one paragraph wrapped to the box width; a break after the end of a sentence stays. About 40,000
-  places, about 15,000 fewer lines; backlog, skip, voices and read-text marks work as before.
-- Maps (#57): the town by Rance Castle reads "Cidade" on every map, war-situation panel, the flag plate and the title
-  map (some still showed AliceSoft's painted "CITY").
+## v2.0.5 - 2026-11-28
+Translation pass, map rework and fix rounds 2 and 3 (GitHub #46, #55, #57-#73). Installs over v2.0.4 (or anything
+older) in place.
+
+**Translation**
+- Story-wide localisation pass: every story batch was read again against the Japanese. About 13,000 lines were
+  rewritten: stiff, Japanese-shaped narration now reads as natural English, dialogue where a joke, idiom or set phrase
+  was lost word for word says what the line actually does, and half-sentences lost where two Japanese lines had been
+  merged are restored.
+- Quest maps (#64): all captions and assistant idle lines (about 1,800 strings) retranslated from the Japanese.
+- Card-get profile screen (#70, #71): all 670 character descriptions and the names and jobs retranslated from the
+  Japanese; the skill line uses short "Skill LVn" terms and fits on screen.
+- Names (#72): Japanese full names given name first everywhere, as in MangaGamer's releases, and card names spelled
+  like the profiles and the story (381 story lines, 48 card names).
+- Terms from the official Rance X English: Frigid Zone, Mortality Rate, Warfront Overview, Free Cities Zone, Morale,
+  Squad, "Early Oct/LP 7" dates; 鬼 is "oni" as in the official Sengoku Rance; leftover "demon" wording in quest
+  choices, quest lists and medals replaced (#63); 285 skill names redone from the Japanese.
+- Text boxes (#58): the English kept the Japanese line breaks (two short lines, then a full one). Where a sentence
+  continues onto the next line, it now runs on as one paragraph wrapped to the box width; a break after the end of a
+  sentence stays. About 40,000 places, about 15,000 fewer lines; backlog, skip, voices and read-text marks work as
+  before.
+- Text added to the same box after a click is no longer glued to the previous text (#68, 291 places).
+
+**Maps**
+- The map lettering was redone to look painted into the maps instead of pasted on top, after the official English
+  map style: one classical serif in capitals and small caps, region names lettered along the banner scrolls, long
+  names stacked instead of squeezed, ink and gold that take the paper's grain and tone, rivers and seas in the
+  painted water lettering. This covers the 13 regional story maps, the parchment world maps, the turn map and its
+  copies, the quest-table maps, the War Situation panels and the war-status map (#59).
+- The title-screen map keeps its own art; only its lettering is replaced.
+- War Situation panels (#73): names centred on their places, AliceSoft's painted captions (Fort of Banri, Tenmabashi)
+  in English, half-erased Japanese cleaned up, the FALLEN stamp red and glowing like the Japanese one.
+- The town by Rance Castle reads "Cidade" everywhere (#57); the leftover "A" next to Nippon on the war-status map is
+  gone (#61).
+
+**Interface**
+- Menu buttons (#62): "Menu" in the game's own lettering, spaced like "Squad" and centred on the button, on the turn
+  map, quest map, battle preparation and title screen.
+- Long skill names wrap to two lines on card faces and battle skill buttons instead of running past the box (#66).
+- Quest screen (#60): long place names no longer run over the "Location" label.
+- The "Choice" caption no longer overlaps the panel ornament (#67); the "Meanwhile" scene-change caption is built the
+  same way in every transition (#65).
 - Config (#55): the note under "Accelerate Skip Mode" names the "Skip Mode Speed" slider as it is labelled.
-- Opening movie (#46): in the third movie, the art behind the name tags comes from the game's own character images
-  instead of a synthesised fill (no more shimmer in the held shot before the fiend cards), the map behind the nation
-  tags keeps its moving stripes, single-frame jumps are smoothed, and two short moments that still showed Japanese
-  (the Helman wipe and one fast pan) are fixed.
+
+**Opening movie (#46)**: in the third movie the art behind the name tags comes from the game's own character images
+instead of a synthesised fill (no more shimmer in the held shot before the fiend cards), the map behind the nation
+tags keeps its moving stripes, single-frame jumps are smoothed, and two short moments that still showed Japanese (the
+Helman wipe and one fast pan) are fixed.
+
+**Installer (#69)**: works when the game folder has a Japanese or other non-English name (it failed with
+"xdelta3: file open failed ... ???10"), and installs all or nothing: every file is patched and checked before any
+is replaced, so a failure no longer leaves a half-patched game.
 
 ## v2.0.4 - 2026-11-26
 Fix round from play-testing (GitHub #27, #30, #32-#53). Installs over v2.0.3 (or anything older) in place.
