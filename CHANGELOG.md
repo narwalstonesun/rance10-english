@@ -42,6 +42,12 @@ older) in place.
 - Quest screen (#60): long place names no longer run over the "Location" label.
 - The "Choice" caption no longer overlaps the panel ornament (#67); the "Meanwhile" scene-change caption is built the
   same way in every transition (#65).
+- Quest list: long quest names wrap to two lines inside the button instead of running past it (#74).
+- Quest info box: cleaner layout, every line flush left, "★ Difficulty Up", "Favored: Free Cities, Ice, Dark" (#75).
+- Assistant speech bubble: letters no longer overlap (the Japanese letter spacing was too tight for English) (#76).
+- Card profiles: the description stays inside the box (#77).
+- Dark Rance's nameplate says "Dark Rance" (it said "Rance"), and the titles above nameplates no longer use
+  brackets or colons ("Son of Feliss and Rance") (#78).
 - Config (#55): the note under "Accelerate Skip Mode" names the "Skip Mode Speed" slider as it is labelled.
 
 **Opening movie (#46)**: in the third movie the art behind the name tags comes from the game's own character images
