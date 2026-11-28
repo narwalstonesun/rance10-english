@@ -48,13 +48,6 @@ Battle preparation (enemy unit name and count, route table, card skills):
 
 ![Battle preparation, this patch](images/ingame_battleprep_after.jpg)
 
-Text box line breaks (v2.0.4, then v2.0.5): one box is often several lines of the script shown one after another,
-and the English used to keep the Japanese line breaks. Since v2.0.5 a sentence that continues runs on as one paragraph:
-
-![Text box, v2.0.4: Japanese line breaks](images/textbox_lines_before.jpg)
-
-![Text box, v2.0.5: one paragraph](images/textbox_lines_after.jpg)
-
 Loading a save (this patch):
 
 ![Load screen](images/load_screen.jpg)
@@ -199,13 +192,6 @@ Name cards, third movie:
 
 [![Name cards (preview)](videos/cards_OP1C.webp)](videos/cards_OP1C.mp4)
 [cards_OP1C.mp4](videos/cards_OP1C.mp4) (22 s, 14.0 MB)
-
-v2.0.5 polish of the held shot with three name cards (half speed; top to bottom: Japanese original, v2.0.4, v2.0.5): where a name
-covers character art, the art behind it now comes from the game's own character images instead of a synthesised fill,
-which removes the shimmer:
-
-[![Held shot, three versions (preview)](videos/op1c_v205_hold_3way.webp)](videos/op1c_v205_hold_3way.mp4)
-[op1c_v205_hold_3way.mp4](videos/op1c_v205_hold_3way.mp4) (2 s at half speed, 2.5 MB)
 
 Title logo at the end of the third movie:
 
