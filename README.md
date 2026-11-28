@@ -28,13 +28,13 @@ Japanese PC version 1.04.
 
 ## Before and after
 
-**A regional map** (the Free Cities and Nippon, 82 labels), Japanese original:
+**The world map** (the painted map behind the turn map), Japanese original:
 
-![Free Cities map, Japanese original](docs/images/free_cities_map_before.jpg)
+![World map, Japanese original](docs/images/painted_map_before.jpg)
 
 This patch:
 
-![Free Cities map, this patch](docs/images/free_cities_map_after.jpg)
+![World map, this patch](docs/images/painted_map_after.jpg)
 
 **The turn map**, Japanese original:
 
@@ -44,7 +44,7 @@ This patch:
 
 ![Turn map, this patch](docs/images/turn_map_after.jpg)
 
-More: the quest map, a text box, a battle, the title screen, the world map, Nunuhara memos, help screens and interface in **[Image comparisons](docs/IMAGES.md)**.
+More: the quest map, a text box, a battle, the title screen, the regional maps, the parchment world map, Nunuhara memos, help screens and interface in **[Image comparisons](docs/IMAGES.md)**.
 
 **Story text**: the briefing in the Prologue. The machine translation this project started from was done line by
 line, and in places its lines drifted out of step with the script. 
