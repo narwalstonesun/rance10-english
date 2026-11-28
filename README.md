@@ -36,11 +36,15 @@ This patch:
 
 ![Free Cities map, this patch](docs/images/free_cities_map_after.jpg)
 
-**The same screen in three versions** (Japanese 1.04 | klesun MTL | this patch), the turn map:
+**The turn map**, Japanese original:
 
-![Turn map: Japanese 1.04, klesun MTL, this patch](docs/images/cmp3_turnmap.jpg)
+![Turn map, Japanese original](docs/images/turn_map_before.jpg)
 
-More: 3-way comparisons of the quest map, a text box and a battle, the title screen, the world map, Nunuhara memos, help screens and interface in **[Image comparisons](docs/IMAGES.md)**.
+This patch:
+
+![Turn map, this patch](docs/images/turn_map_after.jpg)
+
+More: the quest map, a text box, a battle, the title screen, the world map, Nunuhara memos, help screens and interface in **[Image comparisons](docs/IMAGES.md)**.
 
 **Story text**: the briefing in the Prologue. The machine translation this project started from was done line by
 line, and in places its lines drifted out of step with the script. 
