@@ -14,7 +14,7 @@ older) in place.
   Japanese; the skill line uses short "Skill LVn" terms and fits on screen.
 - Names (#72): Japanese full names given name first everywhere, as in MangaGamer's releases, and card names spelled
   like the profiles and the story (381 story lines, 48 card names).
-- Terms from the official Rance X English: Frigid Zone, Mortality Rate, Warfront Overview, Free Cities Zone, Morale,
+- Interface terms updated: Frigid Zone, Mortality Rate, Warfront Overview, Free Cities Zone, Morale,
   Squad, "Early Oct/LP 7" dates; 鬼 is "oni" as in the official Sengoku Rance; leftover "demon" wording in quest
   choices, quest lists and medals replaced (#63); 285 skill names redone from the Japanese.
 - Text boxes (#58): the English kept the Japanese line breaks (two short lines, then a full one). Where a sentence
@@ -24,8 +24,7 @@ older) in place.
 - Text added to the same box after a click is no longer glued to the previous text (#68, 291 places).
 
 **Maps**
-- The map lettering was redone to look painted into the maps instead of pasted on top, after the official English
-  map style: one classical serif in capitals and small caps, region names lettered along the banner scrolls, long
+- The map lettering was refined to look nicer and painted into the maps instead of pasted on top: one classical serif in capitals and small caps, region names lettered along the banner scrolls, long
   names stacked instead of squeezed, ink and gold that take the paper's grain and tone, rivers and seas in the
   painted water lettering. This covers the 13 regional story maps, the parchment world maps, the turn map and its
   copies, the quest-table maps, the War Situation panels and the war-status map (#59).

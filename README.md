@@ -8,9 +8,8 @@ Japanese PC version 1.04.
 - **The whole story retranslated from the Japanese**: about 270,000 lines, scene by scene, with every character's
   voice modelled on MangaGamer's official English releases of the earlier Rance games, then read again in a
   localisation pass against the Japanese.
-- **Maps lettered like the official English maps**: the title-screen map, 69 story maps and the strategy-screen maps
-  (turn map, War Situation panels, quest maps), with the English painted into the art in the style of the official
-  English map lettering.
+- **Maps re-lettered**: the title-screen map, 69 story maps and the strategy-screen maps (turn map, War Situation
+  panels, quest maps), with the English lettering refined in v2.0.5 so it looks painted into the art.
 - **Other images re-lettered**: all 40 Nunuhara memos, all 11 help screens and about 50 interface images, plus the
   animated captions.
 - **Opening movie in English**: the Part 1 opening's typed narration and its name cards.

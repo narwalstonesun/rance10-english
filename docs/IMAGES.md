@@ -2,7 +2,7 @@
 
 Text that is drawn into the game's images (maps, memos, help screens, logos, buttons) was re-lettered by hand
 from the Japanese originals: the Japanese is removed, the background repaired, and English set in a matching font,
-size and colour. Since v2.0.5 the maps are lettered after the official English map style, so the names look painted
+size and colour. In v2.0.5 the map lettering was refined so the names look painted
 into the art. Names and terms follow the [AliceSoft Wiki](https://alicesoft.miraheze.org) and the story text.
 The Japanese original is always shown first. Click any image for full size. Everything shown here is interface or map art from the start of the game.
 
@@ -88,8 +88,8 @@ This patch:
 variants, every regional and Monster Realm map (one of them is further down), and the campaign maps with their
 commander name tags.
 
-v2.0.5 redid the lettering of the regional story maps, the parchment world maps and the strategy-screen maps after
-the official English map lettering: one classical serif in capitals and small caps, region names along the banner
+v2.0.5 refined the lettering of the regional story maps, the parchment world maps and the strategy-screen maps so
+it looks nicer and painted into the art: one classical serif in capitals and small caps, region names along the banner
 scrolls, long names stacked instead of squeezed, gold captions redrawn in AliceSoft's outlined style along the coast,
 wall or bridge they name, and ink that takes the paper's grain and tone. Only the Japanese letters are erased; the
 lines, icons and coasts under them stay.

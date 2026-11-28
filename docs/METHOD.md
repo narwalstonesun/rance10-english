@@ -60,7 +60,7 @@ removed, the background repaired, and the English set in a matching font, size, 
 from the story text so maps and dialogue agree. Every image has a status in a checklist, so nothing is skipped by
 accident. Painted scenery text (shop signs, banners) is left as it is, as the official releases do.
 
-The maps got a second pass in v2.0.5, modelled on the official English map lettering: one classical serif in
+The maps got a second pass in v2.0.5 that refined the lettering step by step: one classical serif in
 capitals and small caps, long names stacked instead of squeezed, region names lettered along the banner scrolls, gold
 captions redrawn in AliceSoft's outlined style along the coast, wall or bridge they name. Only the pixels of the
 Japanese letters are erased (lines, icons and coasts under them are protected and redrawn), and the new ink takes
